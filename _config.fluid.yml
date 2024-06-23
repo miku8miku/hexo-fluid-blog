@@ -149,8 +149,7 @@ index:
 
     # 为空则按 hexo config.subtitle 显示
     # If empty, text based on `subtitle` in hexo config
-    text: https://hitokoto.cn/
-
+    text: 青春人依旧，只叹时光太匆匆！
 
 #---------------------------
 # 文章页
