@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo Theme Fluid
-subtitle: Hexo Theme Fluid
-description: An elegant Material-Design theme for Hexo
+title: KB的小屋
+subtitle: "记录点滴"
+description: 飞流直下三千尺，疑是银河落九天。
 keywords: hexo,theme,fluid,material,material-design,blog
-author: Fluid
+author: KB
 language: zh-CN
 timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://fluid-dev.cn
+url: https://miku2024.top
 root: /
 permalink: /posts/:title/
 permalink_defaults:
