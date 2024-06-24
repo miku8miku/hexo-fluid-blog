@@ -140,7 +140,7 @@ footer:
 # Index Page
 #---------------------------
 index:
-  banner_img: https://api.qjqq.cn/api/Img # 首页 Banner 头图，以下相同
+  banner_img: https://api.qjqq.cn/api/Img?sort=scenery # 首页 Banner 头图，以下相同
 
   # 首页副标题的独立设置
   # Independent config of home page subtitle
