@@ -1103,4 +1103,5 @@ static_prefix:
 
 #---自用修改--
 live2d:
-  enable: true
+  enable: fales
+  
