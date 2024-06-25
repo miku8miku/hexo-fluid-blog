@@ -1,3 +1,4 @@
+
 <%
 var banner_img_height = parseFloat(page.banner_img_height || theme.index.banner_img_height)
 var colorSchema = theme.dark_mode && theme.dark_mode.enable && theme.dark_mode.default ? theme.dark_mode.default : ''
@@ -5,6 +6,7 @@ var colorSchema = theme.dark_mode && theme.dark_mode.enable && theme.dark_mode.d
 
 <!DOCTYPE html>
 <html lang="<%= config.language %>" <%= colorSchema ? `data-default-color-scheme=${colorSchema}` : '' %>>
+
 
 <%- partial('_partials/head.ejs') %>
 

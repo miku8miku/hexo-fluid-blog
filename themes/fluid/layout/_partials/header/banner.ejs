@@ -9,8 +9,15 @@ var subtitle = page.subtitle || page.title
      style="background: url('<%- url_for(banner_img) %>') no-repeat center center; background-size: cover;">
   <div class="full-bg-img">
     <div class="mask flex-center" style="background-color: rgba(0, 0, 0, <%= parseFloat(banner_mask_alpha) %>)">
+
+
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
+
+          <!-- 我加入的标题 生成网站https://readme-typing-svg.demolab.com/demo/-->
+          <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Playwrite+Nigeria+Modern&weight=900&size=35&pause=1000&color=F7F7F7&center=true&vCenter=true&random=false&width=435&lines=KB%E7%9A%84%E5%B0%8F%E5%B1%8B%F0%9F%8F%B0;%E4%BD%A0%E5%8F%88%E6%9D%A5%E7%9C%8B%E6%88%91%E5%95%A6%F0%9F%A5%B3" alt="Typing SVG" /></a>
+          <br> <!-- 添加换行，确保下面的文本在新的一行显示 -->
+
           <% if(theme.fun_features.typing.enable && in_scope(theme.fun_features.typing.scope)) { %>
             <span id="subtitle" data-typed-text="<%= subtitle %>"></span>
           <% } else { %>
