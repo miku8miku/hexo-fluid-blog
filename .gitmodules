@@ -1,0 +1,3 @@
+[submodule "themes/fluid/source/live2d-widget"]
+	path = themes/fluid/source/live2d-widget
+	url = https://github.com/miku8miku/live2d-widget
