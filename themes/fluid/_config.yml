@@ -1101,6 +1101,6 @@ static_prefix:
 
   moment: https://lib.baomitu.com/moment.js/2.29.4/
 
-#---自用修改---
+#---自用修改--
 live2d:
   enable: true
