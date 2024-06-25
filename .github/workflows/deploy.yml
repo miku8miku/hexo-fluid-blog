@@ -51,17 +51,4 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./public
 
-        # Deploy to external repository external_repository
-        # 发布到其他仓库的配置，注意必须使用deploy_key，获取和设置方法同上。
-        #deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-        #external_repository: username/external-repository
-        #publish_branch: your-branch  # default: gh-pages
-        #publish_dir: ./public
 
-        # 以下配置可忽略，测试功能，设置提交信息相关配置
-        user_name: 'github-actions[bot]'
-        user_email: 'github-actions[bot]@users.noreply.github.com'
-        commit_message: ${{ github.event.head_commit.message }}
-        #full_commit_message: ${{ github.event.head_commit.message }}
-        tag_name: ${{ steps.prepare_tag.outputs.DEPLOY_TAG_NAME }}
-        tag_message: 'Deployment ${{ github.ref_name }}
