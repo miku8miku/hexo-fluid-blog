@@ -495,6 +495,6 @@ links:
 # 指定自定义 .css 文件路径，用法和 custom_js 相同
 # The usage is the same as custom_js
 custom_css: 
-  # - /css/cloudedGlass.css
+  - /css/cloudedGlass.css
 
   #----毛玻璃效果----
