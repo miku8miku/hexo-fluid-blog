@@ -116,7 +116,7 @@ pandoc:
     - "+hard_line_breaks"
 
 
-#----以下内容自定义添加----
+#----以下内容自定义添加（这个使用的hexo插件，现在是直接拉库修改原主题了）----
 
 live2d:
   enable: false
@@ -137,6 +137,9 @@ live2d:
 
   #   #https://npm.elemecdn.com/akilar-live2dapi@latest/model/ 可以在这个库里面找
   #   use: https://npm.elemecdn.com/akilar-live2dapi@latest/model/umaru/index.json # 你的自定义 url
+
+
+  
   # display:
   #   position: left
   #   width: 150
