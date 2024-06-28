@@ -500,5 +500,6 @@ links:
 custom_css: 
   - /css/cloudedGlass.css
   - /css/custom.css
+  - /css/right_menu.css
 
   #----毛玻璃效果----
