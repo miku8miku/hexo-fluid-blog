@@ -143,7 +143,7 @@ footer:
 # Index Page
 #---------------------------
 index:
-  banner_img: https://api.qjqq.cn/api/Img?sort=scenery # 首页 Banner 头图，以下相同
+  banner_img: https://api.nsmao.net/api/Img/query?key=k6vGdTakfOLPFWwfcFiU7RT6bU&sort=scenery # 首页 Banner 头图，以下相同
 
   # 首页副标题的独立设置
   # Independent config of home page subtitle
@@ -179,7 +179,7 @@ index:
 # Post Page
 #---------------------------
 post:
-  banner_img: https://api.qjqq.cn/api/Img?sort=scenery
+  banner_img: https://api.nsmao.net/api/Img/query?key=k6vGdTakfOLPFWwfcFiU7RT6bU&sort=scenery
 
   # 文章标题下方的元信息
   # Meta information below title
@@ -403,7 +403,7 @@ valine:
 # Archive Page
 #---------------------------
 archive:
-  banner_img: https://api.qjqq.cn/api/Img?sort=belle
+  banner_img: https://api.nsmao.net/api/Img/query?key=k6vGdTakfOLPFWwfcFiU7RT6bU&sort=belle
 
 
 #---------------------------
@@ -412,7 +412,7 @@ archive:
 #---------------------------
 category:
   enable: true
-  banner_img: https://api.qjqq.cn/api/Img?sort=belle
+  banner_img: https://api.nsmao.net/api/Img/query?key=k6vGdTakfOLPFWwfcFiU7RT6bU&sort=belle
 
 
 #---------------------------
@@ -421,7 +421,7 @@ category:
 #---------------------------
 tag:
   enable: true
-  banner_img: https://api.qjqq.cn/api/Img?sort=belle
+  banner_img: https://api.nsmao.net/api/Img/query?key=k6vGdTakfOLPFWwfcFiU7RT6bU&sort=belle
 
 
 #---------------------------
@@ -429,7 +429,7 @@ tag:
 # About Page
 #---------------------------
 about:
-  banner_img: https://api.qjqq.cn/api/Img?sort=bd_acg
+  banner_img: https://api.nsmao.net/api/Img/query?key=k6vGdTakfOLPFWwfcFiU7RT6bU&sort=bd_acg
   avatar: https://bu.dusays.com/2021/01/15/5c47449ec433a.png
   name: KB
   introduce: 简洁至上 
@@ -448,7 +448,7 @@ about:
 # Custom Page through `hexo new page`
 #---------------------------
 page:
-  banner_img: https://api.qjqq.cn/api/Img
+  banner_img: https://api.nsmao.net/api/Img/query?key=k6vGdTakfOLPFWwfcFiU7RT6bU&sort=bd_acg
 
 
 #---------------------------
@@ -457,7 +457,7 @@ page:
 #---------------------------
 page404:
   enable: true
-  banner_img: https://api.qjqq.cn/api/Img
+  banner_img: https://api.nsmao.net/api/Img/query?key=k6vGdTakfOLPFWwfcFiU7RT6bU&sort=bd_acg
 
 
 #---------------------------
@@ -466,7 +466,7 @@ page404:
 #---------------------------
 links:
   enable: true
-  banner_img: https://api.qjqq.cn/api/Img
+  banner_img: https://api.nsmao.net/api/Img/query?key=k6vGdTakfOLPFWwfcFiU7RT6bU&sort=bd_acg
   items:  # intro 与 image 可省略
     - {
       title: 'Install Fluid',

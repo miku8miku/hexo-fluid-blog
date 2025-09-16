@@ -1,7 +1,7 @@
 ---
 title: 学习一下Hexo使用
 date: 2024-06-24 11:04:22
-index_img: https://api.qjqq.cn/api/bingimg
+index_img: https://api.nsmao.net/api/Img/query?key=k6vGdTakfOLPFWwfcFiU7RT6bU&sort=acg
 category: 博文
 tags:
   - 测试
