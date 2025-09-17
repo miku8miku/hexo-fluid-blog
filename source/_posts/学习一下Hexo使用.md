@@ -1,10 +1,9 @@
 ---
 title: 学习一下Hexo使用
-date: 2024-06-24 11:04:22
-index_img: https://api.nsmao.net/api/Img/query?key=k6vGdTakfOLPFWwfcFiU7RT6bU&sort=acg
+date: 2022-06-24 11:04:22
+index_img: img/bg/1.png
 category: 博文
 tags:
-  - 测试
   - 博客
 math: true
 mermaid: true

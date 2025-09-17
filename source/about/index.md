@@ -3,16 +3,12 @@ title: about
 layout: about
 ---
 
-欢迎体验 [Fluid](https://github.com/fluid-dev/hexo-theme-fluid) ，这是一款 Material Design 风格的 Hexo 主题，以简约的设计帮助你专注于写作。
+你好！我是KB，主要研究与开发方向是分布式边缘计算，重点涉及智能物联网应用、设备协同与边缘计算场景化部署，曾参与智能呼叫中心系统的语音识别模块开发，积累了较丰富的项目经验。日常使用 Go、Java 与 Python 进行开发，并在容器化（Docker）、边缘部署（Kubernetes、K3s）、分布式通信（gRPC、MQTT） 等方面持续探索与实践。
 
-该主题相较于其他主题的优势：
+我就一直梦想拥有自己的网站，希望把开发的网页项目展示出来，让更多人访问和使用。那时还没接触过云服务器，只是单纯地想实现“线上可访问”的效果。后来了解到云服务，我的第一台服务器是阿里云的轻量应用服务器，之后也因为成本考虑陆续尝试过腾讯云等平台。
 
-1. 设计遵循简洁至上，同时具有轻快的体验，和优雅的颜值；
-2. 提供大量定制化配置项，使每个用户使用该主题都能具有独特的样式；
-3. 响应式页面，适配手机、平板等设备；
+目前，在一位朋友的推荐下，我使用自己的小型物理主机作为服务器，配合免费的内网穿透和CDN方案，以更低成本稳定运行个人项目。我也持续在[GitHub](https://github.com/miku8miku)上分享一些开源项目和技术思考，欢迎交流！
 
-## 转载文章
-
-如果你有 Fluid 主题或 Hexo 博客相关的文章，可以通过 [Pull Request](https://github.com/fluid-dev/hexo-fluid-blog/pulls) 方式提交（文中图片可暂时使用自己的外链或存放在 source 里），不要忘记文章头部留下自己的原文链接（[格式参考](https://raw.githubusercontent.com/fluid-dev/hexo-fluid-blog/master/source/_posts/hexo-darkmode.md)）。
+热爱可抵岁月漫长，我会继续在边缘计算和独立开发的路上走下去。
 
 

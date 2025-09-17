@@ -1,6 +1,6 @@
 ---
 title: Hello Fluid
-date: 2024-06-18 22:22:22
+date: 2022-06-18 22:22:22
 index_img: https://fluid.s3.bitiful.net/hello-fluid/cover.png?w=480&fmt=webp
 category: 主题示例
 tags:
@@ -8,7 +8,7 @@ tags:
   - Fluid
 math: true
 mermaid: true
-sticky: 100
+# sticky: 100
 ---
 
 >欢迎体验 [Fluid](https://github.com/fluid-dev/hexo-theme-fluid) ，这是一款 Material Design 风格的 Hexo 主题，以简约的设计帮助你专注于写作，本篇文章可预览主题的样式及功能。
