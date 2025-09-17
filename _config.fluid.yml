@@ -145,7 +145,8 @@ footer:
 # Index Page
 #---------------------------
 index:
-  banner_img: img\bg\qygw.jpg # 首页 Banner 头图，以下相同
+  # banner_img: img\bg\qygw.jpg # 首页 Banner 头图，以下相同
+  banner_img: https://raw.githubusercontent.com/miku8miku/picture/main/2025/09/upgit_20250917_1758100212.png
 
   # 首页副标题的独立设置
   # Independent config of home page subtitle
