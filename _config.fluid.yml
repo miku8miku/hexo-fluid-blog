@@ -99,7 +99,7 @@ navbar:
     - { key: 'archive', link: '/archives/', icon: 'iconfont icon-archive-fill' }
     - { key: 'category', link: '/categories/', icon: 'iconfont icon-category-fill' }
     - { key: 'tag', link: '/tags/', icon: 'iconfont icon-tags-fill' }
-    - { key: 'links', link: '/links/', icon: 'iconfont icon-link-fill' }
+    # - { key: 'links', link: '/links/', icon: 'iconfont icon-link-fill' }
     # - { key: 'community', link: '/community/', name: '社群', icon: 'iconfont icon-wechat2-fill' }
     - { key: 'about', link: '/about/', icon: 'iconfont icon-user-fill' }
     - {
@@ -107,9 +107,9 @@ navbar:
       icon: 'iconfont icon-books',
       link: '#',
       submenu: [
-      { key: '暂未开放', link: 'https://hexo.fluid-dev.com/docs/start/' },
-      { key: '暂未开放', link: 'https://hexo.fluid-dev.com/docs/guide/' },
-      { key: '暂未开放', link: 'https://hexo.fluid-dev.com/docs/icon/' }
+      { key: 'Openlist', link: 'https://maclist.miku2024.top/' },
+      { key: 'Qinglong', link: 'https://ql2.miku2024.top/' },
+      { key: '聚合站', link: 'https://rss.miku2024.top:8043/' }
       ]
     }
 
