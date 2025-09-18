@@ -1,6 +1,6 @@
 ---
 title: 训练实时语音识别Paraformer模型完整指南：从数据准备到模型评估
-date: 2024-09-17 19:00:00
+date: 2024-11-06 19:00:00
 index_img: img/bg/paraformer-training.png
 category: 机器学习
 tags:

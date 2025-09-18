@@ -1,6 +1,6 @@
 ---
 title: Nginx配置WebSocket反向代理完整指南
-date: 2024-09-17 17:00:00
+date: 2023-8-12 17:00:00
 index_img: img/bg/nginx-websocket.png
 category: 服务器运维
 tags:

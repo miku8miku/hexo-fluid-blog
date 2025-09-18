@@ -1,6 +1,6 @@
 ---
 title: Docker 部署 FunASR 语音转文字服务完整指南
-date: 2024-09-12 15:00:00
+date: 2024-12-16 15:00:00
 index_img: img/bg/funasr.png
 category: 技术教程
 tags:

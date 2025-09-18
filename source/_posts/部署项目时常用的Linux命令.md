@@ -1,6 +1,6 @@
 ---
 title: Linux项目部署常用命令详解：从入门到实战
-date: 2024-09-17 18:00:00
+date: 2022-12-27 18:00:00
 index_img: img/bg/linux-commands.png
 category: 服务器运维
 tags:
