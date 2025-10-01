@@ -1,7 +1,7 @@
 ---
 title: Linux项目部署常用命令详解：从入门到实战
 date: 2022-12-27 18:00:00
-index_img: img/bg/linux-commands.png
+index_img: https://pic1.imgdb.cn/item/68caad3ac5157e1a8812c798.png
 category: 服务器运维
 tags:
   - Linux

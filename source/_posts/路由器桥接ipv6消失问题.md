@@ -1,7 +1,7 @@
 ---
 title: 路由器桥接ipv6消失问题
 date: 2022-06-30 10:01:00
-index_img: img/bg/2.png
+index_img: https://pic1.imgdb.cn/item/68cc4035c5157e1a8817ddc9.png
 category: 生活
 tags:
   - 路由器

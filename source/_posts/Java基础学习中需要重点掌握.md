@@ -1,7 +1,7 @@
 ---
 title: Java 基础学习重点知识总结
 date: 2022-10-2 18:00:00
-index_img: img/bg/java.png
+index_img: https://pic1.imgdb.cn/item/68cc4079c5157e1a8817ddeb.png
 category: 编程学习
 tags:
   - Java

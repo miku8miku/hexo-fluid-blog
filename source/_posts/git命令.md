@@ -1,7 +1,7 @@
 ---
 title: Git 常用命令速查手册
 date: 2022-09-17 14:30:00
-index_img: img/bg/git.png
+index_img: https://pic1.imgdb.cn/item/68cc4073c5157e1a8817dde7.png
 category: 技术笔记
 tags:
   - Git

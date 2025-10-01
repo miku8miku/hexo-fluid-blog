@@ -1,7 +1,7 @@
 ---
 title: Nginx配置WebSocket反向代理完整指南
 date: 2023-8-12 17:00:00
-index_img: img/bg/nginx-websocket.png
+index_img: https://pic1.imgdb.cn/item/68ce9d9bc5157e1a88207300.jpg
 category: 服务器运维
 tags:
   - Nginx

@@ -1,7 +1,7 @@
 ---
 title: 修改SSH登录默认端口教程
 date: 2023-05-21 15:30:00
-index_img: img/bg/ssh.png
+index_img: https://pic1.imgdb.cn/item/68caac32c5157e1a8812c599.png
 category: 系统运维
 tags:
   - SSH
