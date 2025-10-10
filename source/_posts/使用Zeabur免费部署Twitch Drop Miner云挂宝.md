@@ -1,7 +1,7 @@
 ---
 title: 使用 Zeabur 免费部署 Twitch Drop Miner 云挂宝
 date: 2025-10-10 16:00:00
-index_img: img\bg\PixPin_2025-10-10_22-20-09.png
+index_img: img/bg/PixPin_2025-10-10_22-20-09.png
 category: 云服务
 tags:
   - Zeabur
