@@ -82,9 +82,9 @@ ClawCloud Run 是一个现代化的云开发平台，集成了在线开发、测
 按照上述设置，每天费用约为 $0.04，30 天的费用仅为 $1.2，完全足够运行 ASF 应用。
 {% endnote %}
 
-![创建容器设置（上）](https://i0.hdslb.com/bfs/article/0791755b4b0ace08a72dc6f5230704ab3095298.png@1192w.webp)
+![创建容器设置（上）](https://raw.githubusercontent.com/miku8miku/picture/main/2025/10/upgit_20251011_1760169713.png)
 
-![创建容器设置（下）](https://i0.hdslb.com/bfs/article/248158311314daa91b97aa5748b6db0a3095298.png@1192w.webp)
+![创建容器设置（下）](https://raw.githubusercontent.com/miku8miku/picture/main/2025/10/upgit_20251011_1760169739.png)
 
 ## 💾 上传配置文件
 
@@ -133,7 +133,7 @@ ClawCloud Run 是一个现代化的云开发平台，集成了在线开发、测
 1. 点击 Pod List 栏的文件夹图标
 2. 将保存好的文件上传至 `/app/config` 路径
 
-![上传配置文件](https://i0.hdslb.com/bfs/article/2bef9cd06b998afcf4644296b12d6b473095298.png@1192w.webp)
+![上传配置文件](https://raw.githubusercontent.com/miku8miku/picture/main/2025/10/upgit_20251011_1760169769.png)
 
 ### 重启容器
 
@@ -141,7 +141,7 @@ ClawCloud Run 是一个现代化的云开发平台，集成了在线开发、测
 2. 等待 ASF 重启完成
 3. 当 STATUS 变为 **Active** 后，点击 Network 栏的 **Public Address** 地址即可成功访问
 
-![访问 ASF](https://i0.hdslb.com/bfs/article/80d0f7c8c4d467319ccf40e09eeecdc83095298.png@1192w.webp)
+![访问 ASF](https://raw.githubusercontent.com/miku8miku/picture/main/2025/10/upgit_20251011_1760169787.png)
 
 ## 🌐 自定义域名
 
