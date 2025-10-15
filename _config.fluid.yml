@@ -111,7 +111,8 @@ navbar:
       { key: 'Openlist', link: 'https://maclist.miku2024.top/' },
       { key: 'Qinglong', link: 'https://ql2.miku2024.top/' },
       { key: '聚合站', link: 'https://rss.miku2024.top:8043/' },
-      { key: 'BlogFinder', link: 'https://bf.zzxworld.com/' }
+      { key: 'BlogFinder', link: 'https://bf.zzxworld.com/' },
+      { key: 'Quick Reference', link: 'https://www.pipecraft.net/reference/' },
       ]
     }
 
