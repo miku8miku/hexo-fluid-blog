@@ -1,6 +1,6 @@
 ---
 title: Windows 11 恢复 Windows 10 右键样式教程
-date: 2025-10-15 20:00:00
+date: 2023-10-15 20:00:00
 index_img: https://r2.miku2024.top/r2/2025/10/f1276f4f4703ca4dd23a6bc7ad0c70db.png
 category: 系统教程
 tags:
