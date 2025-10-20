@@ -20,7 +20,7 @@ mermaid: false
 
 Windows 11 对右键菜单进行了重新设计，采用了更加现代化的界面，但同时也隐藏了一些常用的功能选项。对于习惯了 Windows 10 右键菜单的用户来说，这种改变可能不太适应。通过本文介绍的方法，您可以轻松地在 Windows 11 中恢复 Windows 10 的经典右键菜单样式。
 
-![Alt Text](https://cdn.jsdelivr.net/gh/miku8miku/images@main/202510152330798.png)
+![Alt Text](https://fastly.jsdelivr.net/gh/miku8miku/images@main/202510152330798.png)
 
 {% note info %}
 **适用范围**：本教程适用于 Windows 11 系统，需要管理员权限执行相关命令。

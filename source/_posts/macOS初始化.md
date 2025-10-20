@@ -1,7 +1,7 @@
 ---
 title: macOS 初始化设置指南
 date: 2022-7-15 15:30:00
-index_img: https://cdn.jsdelivr.net/gh/miku8miku/images@main/202510151037532.png
+index_img: https://fastly.jsdelivr.net/gh/miku8miku/images@main/202510151037532.png
 category: 技术教程
 tags:
   - macOS

@@ -1,7 +1,7 @@
 ---
 title: 中兴F32Pro去控及改IMEI完整教程
 date: 2025-10-15 20:00:00
-index_img: https://cdn.jsdelivr.net/gh/miku8miku/images@main/202510151039873.png
+index_img: https://fastly.jsdelivr.net/gh/miku8miku/images@main/202510151039873.png
 category: 技术教程
 tags:
   - 随身WiFi
@@ -82,7 +82,7 @@ USB\VID_2ECC&PID_3002\5&FE512A8&0&4
 
 适用于大多数设备，尤其是中兴微、ASR、展锐等方案的随身WiFi：
 
-![AT安装](https://cdn.jsdelivr.net/gh/miku8miku/images@main/202510151947979.png)
+![AT安装](https://fastly.jsdelivr.net/gh/miku8miku/images@main/202510151947979.png)
 
 ![在线改串工具](https://r2.miku2024.top/r2/2025/10/0aa22741ef24e3da866530b3598d9e67.png)
 
