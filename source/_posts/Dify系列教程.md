@@ -1,7 +1,7 @@
 ---
 title: Dify系列教程：本地部署与工作流搭建指南
 date: 2025-11-11 18:00:00
-index_img: https://cdn.jsdelivr.net/gh/miku8miku/images@main/202511111812653.png
+index_img: https://r2.miku2024.top/r2/2025/10/0a4742b3e0bc5bb643e81e7b0b15f372.png
 category: 技术教程
 tags:
   - Dify
