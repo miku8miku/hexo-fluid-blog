@@ -29,7 +29,7 @@ Dify 在本地安装是基于本地 Docker，相信佬友们一定不陌生，Do
 
 以管理员身份打开 Windows PowerShell，在 PowerShell 中，将你的文件夹设定为你要存放 Dify 源代码的地方
 
-![image-20251111181234510](https://cdn.jsdelivr.net/gh/miku8miku/images@main/202511111812653.png)
+![image-20251111181234510](https://cdn.bili33.top/gh/miku8miku/images@main/202511111812653.png)
 
 输入如下命令：
 
@@ -37,7 +37,7 @@ Dify 在本地安装是基于本地 Docker，相信佬友们一定不陌生，Do
 > git clone https://github.com/langgenius/dify
 ```
 
-![image-20251111181300373](https://cdn.jsdelivr.net/gh/miku8miku/images@main/202511111813519.png)
+![image-20251111181300373](https://cdn.bili33.top/gh/miku8miku/images@main/202511111813519.png)
 
 
 
@@ -49,13 +49,13 @@ Dify 在本地安装是基于本地 Docker，相信佬友们一定不陌生，Do
 
 
 
-![image-20251111181315638](https://cdn.jsdelivr.net/gh/miku8miku/images@main/202511111813789.png)
+![image-20251111181315638](https://cdn.bili33.top/gh/miku8miku/images@main/202511111813789.png)
 
 **二、在 Docker 中启动 Dify**
 
 先进入刚才下载的 Dify 目录下的 Docker 文件夹，找到 docker-compose.yaml 文件
 
-![image-20251111181325939](https://cdn.jsdelivr.net/gh/miku8miku/images@main/202511111813066.png)
+![image-20251111181325939](https://cdn.bili33.top/gh/miku8miku/images@main/202511111813066.png)
 
 在此文件夹下，输入 cmd 命令，启动终端，并输入如下命令：
 
@@ -63,7 +63,7 @@ Dify 在本地安装是基于本地 Docker，相信佬友们一定不陌生，Do
 
 
 
-![image-20251111181335336](https://cdn.jsdelivr.net/gh/miku8miku/images@main/202511111813488.png)
+![image-20251111181335336](https://cdn.bili33.top/gh/miku8miku/images@main/202511111813488.png)
 
 
 
@@ -71,7 +71,7 @@ Dify 在本地安装是基于本地 Docker，相信佬友们一定不陌生，Do
 
 
 
-![image-20251111181357772](https://cdn.jsdelivr.net/gh/miku8miku/images@main/202511111813905.png)
+![image-20251111181357772](https://cdn.bili33.top/gh/miku8miku/images@main/202511111813905.png)
 
 **三、运行 Dify**
 
@@ -79,13 +79,13 @@ Dify 在本地安装是基于本地 Docker，相信佬友们一定不陌生，Do
 
 
 
-![image-20251111181407346](https://cdn.jsdelivr.net/gh/miku8miku/images@main/202511111814476.png)
+![image-20251111181407346](https://cdn.bili33.top/gh/miku8miku/images@main/202511111814476.png)
 
 设置邮箱，用户名及密码后，就可以登录看到 DIfy 的全貌了
 
 
 
-![image-20251111181417311](https://cdn.jsdelivr.net/gh/miku8miku/images@main/202511111814434.png)
+![image-20251111181417311](https://cdn.bili33.top/gh/miku8miku/images@main/202511111814434.png)
 
 安装完 Dify，实际上并没有任何 AI 模型，实际上 Dify 就是一个 WebUI 而已。
 
@@ -99,43 +99,43 @@ Dify 在本地安装是基于本地 Docker，相信佬友们一定不陌生，Do
 
 
 
-![image-20251111181436995](https://cdn.jsdelivr.net/gh/miku8miku/images@main/202511111814131.png)
+![image-20251111181436995](https://cdn.bili33.top/gh/miku8miku/images@main/202511111814131.png)
 
 2、点击 **模型供应商**，在这里就能看到许多已经可供安装的模型插件
 
 
 
-![image-20251111181448410](https://cdn.jsdelivr.net/gh/miku8miku/images@main/202511111814542.png)
+![image-20251111181448410](https://cdn.bili33.top/gh/miku8miku/images@main/202511111814542.png)
 
 3、为了演示，我就安装一个 **Ollama** 模型，鼠标移到模型上，直接点击 **安装**
 
 
 
-![image-20251111181459282](https://cdn.jsdelivr.net/gh/miku8miku/images@main/202511111814440.png)
+![image-20251111181459282](https://cdn.bili33.top/gh/miku8miku/images@main/202511111814440.png)
 
 4、会弹出窗口，继续点击 **安装**
 
 
 
-![image-20251111181510075](https://cdn.jsdelivr.net/gh/miku8miku/images@main/202511111815202.png)
+![image-20251111181510075](https://cdn.bili33.top/gh/miku8miku/images@main/202511111815202.png)
 
 5、安装好，在**模型列表**处就会出现 **待配置** 式样
 
 
 
-![image-20251111181536861](https://cdn.jsdelivr.net/gh/miku8miku/images@main/202511111815981.png)
+![image-20251111181536861](https://cdn.bili33.top/gh/miku8miku/images@main/202511111815981.png)
 
 6、点击右下角**添加模型**，会弹出如下窗口，添加已下载的 Ollama 模型名称，基础 URL
 
 
 
-![image-20251111181551985](https://cdn.jsdelivr.net/gh/miku8miku/images@main/202511111815104.png)
+![image-20251111181551985](https://cdn.bili33.top/gh/miku8miku/images@main/202511111815104.png)
 
 7、按照此方法添加了多个 Ollama 的模型
 
 
 
-![image-20251111181601158](https://cdn.jsdelivr.net/gh/miku8miku/images@main/202511111816282.png)
+![image-20251111181601158](https://cdn.bili33.top/gh/miku8miku/images@main/202511111816282.png)
 
 
 
@@ -149,7 +149,7 @@ Dify 在本地安装是基于本地 Docker，相信佬友们一定不陌生，Do
 
 我先分享我搭建好的工作室中的一些应用，有辅助我做翻译工作的，有辅助我调试楼控软件的，有进行商业应用的，还有工作流等。
 
-![image-20251111181621178](https://cdn.jsdelivr.net/gh/miku8miku/images@main/202511111816313.png)
+![image-20251111181621178](https://cdn.bili33.top/gh/miku8miku/images@main/202511111816313.png)
 
 为了演示，我就搭建一个全新应用 ---- 翻译助理。
 
@@ -157,7 +157,7 @@ Dify 在本地安装是基于本地 Docker，相信佬友们一定不陌生，Do
 
 
 
-![image-20251111181630550](https://cdn.jsdelivr.net/gh/miku8miku/images@main/202511111816679.png)
+![image-20251111181630550](https://cdn.bili33.top/gh/miku8miku/images@main/202511111816679.png)
 
 
 
@@ -165,7 +165,7 @@ Dify 在本地安装是基于本地 Docker，相信佬友们一定不陌生，Do
 
 
 
-![image-20251111181645737](https://cdn.jsdelivr.net/gh/miku8miku/images@main/202511111816901.png)
+![image-20251111181645737](https://cdn.bili33.top/gh/miku8miku/images@main/202511111816901.png)
 
 
 
@@ -173,35 +173,35 @@ Dify 在本地安装是基于本地 Docker，相信佬友们一定不陌生，Do
 
 
 
-![image-20251111181654903](https://cdn.jsdelivr.net/gh/miku8miku/images@main/202511111816024.png)
+![image-20251111181654903](https://cdn.bili33.top/gh/miku8miku/images@main/202511111816024.png)
 
 
 
-![image-20251111181705124](https://cdn.jsdelivr.net/gh/miku8miku/images@main/202511111817241.png)
+![image-20251111181705124](https://cdn.bili33.top/gh/miku8miku/images@main/202511111817241.png)
 
 4、点击 **创建**， 刚才创建的 **翻译助理** 就已经创建好了
 
 
 
-![image-20251111181712766](https://cdn.jsdelivr.net/gh/miku8miku/images@main/202511111817890.png)
+![image-20251111181712766](https://cdn.bili33.top/gh/miku8miku/images@main/202511111817890.png)
 
 5、在 **提示词** 中可以使用 Dify 内置的一些提示词，但是过于简单。我建议填写 一段科学提示词，可以让它更好的为我们工作
 
 
 
-![image-20251111181719641](https://cdn.jsdelivr.net/gh/miku8miku/images@main/202511111817755.png)
+![image-20251111181719641](https://cdn.bili33.top/gh/miku8miku/images@main/202511111817755.png)
 
 6、有了上面这些工作，在右上方指定模型，这里我选择了 Claude-3.5-haiku，右下方与机器人聊天输入框中，只要输入英文，不再需要给它任何其他提示，它就直接进行翻译了，而且从翻译的内容看，专业，且输出了也是按照我们要求的 Markdown 格式。
 
 
 
-![image-20251111181730777](https://cdn.jsdelivr.net/gh/miku8miku/images@main/202511111818355.png)
+![image-20251111181730777](https://cdn.bili33.top/gh/miku8miku/images@main/202511111818355.png)
 
 选择了 Ollama 的 Deepseek-r1，看到它思考的过程，翻译也同样专业出色。
 
 
 
-![image-20251111181827543](https://cdn.jsdelivr.net/gh/miku8miku/images@main/202511111818682.png)
+![image-20251111181827543](https://cdn.bili33.top/gh/miku8miku/images@main/202511111818682.png)
 
 # 创建本地知识库
 
@@ -215,19 +215,19 @@ Dify 在本地安装是基于本地 Docker，相信佬友们一定不陌生，Do
 
 
 
-![image-20251111181840892](https://cdn.jsdelivr.net/gh/miku8miku/images@main/202511111818022.png)
+![image-20251111181840892](https://cdn.bili33.top/gh/miku8miku/images@main/202511111818022.png)
 
 2、这里还是用 Ollam 模型进行演示，点击 **添加模型**， 将模型类型设定为 **Text Embedding** ，填入模型名称及基础 URL ，点击 **保存**
 
 
 
-![image-20251111181855897](https://cdn.jsdelivr.net/gh/miku8miku/images@main/202511111818029.png)
+![image-20251111181855897](https://cdn.bili33.top/gh/miku8miku/images@main/202511111818029.png)
 
 3、在 Ollama 中就看到刚添加的 Embendding 模型了
 
 
 
-![image-20251111181906703](https://cdn.jsdelivr.net/gh/miku8miku/images@main/202511111819838.png)
+![image-20251111181906703](https://cdn.bili33.top/gh/miku8miku/images@main/202511111819838.png)
 
 
 
@@ -235,25 +235,25 @@ Dify 在本地安装是基于本地 Docker，相信佬友们一定不陌生，Do
 
 
 
-![image-20251111181923376](https://cdn.jsdelivr.net/gh/miku8miku/images@main/202511111819522.png)
+![image-20251111181923376](https://cdn.bili33.top/gh/miku8miku/images@main/202511111819522.png)
 
 5、在下方界面中，选择 **导入已有文本** ，上传文本文件，文件类型可以是 txt、markdown、pdf、html、docx 等等格式，这里我就上传一本《普通人的 AI 指南》的 PDF。
 
 
 
-![image-20251111181933893](https://cdn.jsdelivr.net/gh/miku8miku/images@main/202511111819044.png)
+![image-20251111181933893](https://cdn.bili33.top/gh/miku8miku/images@main/202511111819044.png)
 
 6、下一步就是选择合适的模型，并配置相关参数。左上方的 **分段设置** 中参数保持默认即可。**索引方式**用高质量。
 
 
 
-![image-20251111181945734](https://cdn.jsdelivr.net/gh/miku8miku/images@main/202511111819890.png)
+![image-20251111181945734](https://cdn.bili33.top/gh/miku8miku/images@main/202511111819890.png)
 
 **Embedding 模型**，我们就用上面创建 deepseek-r1。检索参数无需调整，保持默认，直接点击最下方的**保存处理**即可
 
 
 
-![image-20251111181959953](https://cdn.jsdelivr.net/gh/miku8miku/images@main/202511111820148.png)
+![image-20251111181959953](https://cdn.bili33.top/gh/miku8miku/images@main/202511111820148.png)
 
 
 
@@ -261,7 +261,7 @@ Dify 在本地安装是基于本地 Docker，相信佬友们一定不陌生，Do
 
 
 
-![image-20251111182009926](https://cdn.jsdelivr.net/gh/miku8miku/images@main/202511111820057.png)
+![image-20251111182009926](https://cdn.bili33.top/gh/miku8miku/images@main/202511111820057.png)
 
 
 
@@ -269,11 +269,11 @@ Dify 在本地安装是基于本地 Docker，相信佬友们一定不陌生，Do
 
 
 
-![image-20251111182021219](https://cdn.jsdelivr.net/gh/miku8miku/images@main/202511111820377.png)
+![image-20251111182021219](https://cdn.bili33.top/gh/miku8miku/images@main/202511111820377.png)
 
 
 
-![image-20251111182030386](https://cdn.jsdelivr.net/gh/miku8miku/images@main/202511111820529.png)
+![image-20251111182030386](https://cdn.bili33.top/gh/miku8miku/images@main/202511111820529.png)
 
 
 
@@ -281,25 +281,25 @@ Dify 在本地安装是基于本地 Docker，相信佬友们一定不陌生，Do
 
 
 
-![image-20251111182045343](https://cdn.jsdelivr.net/gh/miku8miku/images@main/202511111820479.png)
+![image-20251111182045343](https://cdn.bili33.top/gh/miku8miku/images@main/202511111820479.png)
 
 10、点击 **添加**，选择刚才已经创建好的知识库。
 
 
 
-![image-20251111182051837](https://cdn.jsdelivr.net/gh/miku8miku/images@main/202511111820972.png)
+![image-20251111182051837](https://cdn.bili33.top/gh/miku8miku/images@main/202511111820972.png)
 
 11、就可以看到我们刚创建的知识库已经添加成功了
 
 
 
-![image-20251111182101741](https://cdn.jsdelivr.net/gh/miku8miku/images@main/202511111821876.png)
+![image-20251111182101741](https://cdn.bili33.top/gh/miku8miku/images@main/202511111821876.png)
 
 现在就可以在聊天窗口中提问，看它是如何回答的，是否调用的是我们添加的知识库了。
 
 
 
-![image-20251111182110401](https://cdn.jsdelivr.net/gh/miku8miku/images@main/202511111821767.png)
+![image-20251111182110401](https://cdn.bili33.top/gh/miku8miku/images@main/202511111821767.png)
 
 
 
@@ -309,15 +309,15 @@ Dify 在本地安装是基于本地 Docker，相信佬友们一定不陌生，Do
 
 
 
-![image-20251111182121215](https://cdn.jsdelivr.net/gh/miku8miku/images@main/202511111821352.png)
+![image-20251111182121215](https://cdn.bili33.top/gh/miku8miku/images@main/202511111821352.png)
 
 
 
-![image-20251111182212577](https://cdn.jsdelivr.net/gh/miku8miku/images@main/202511111822724.png)
+![image-20251111182212577](https://cdn.bili33.top/gh/miku8miku/images@main/202511111822724.png)
 
 
 
-![image-20251111182229859](https://cdn.jsdelivr.net/gh/miku8miku/images@main/202511111822989.png)
+![image-20251111182229859](https://cdn.bili33.top/gh/miku8miku/images@main/202511111822989.png)
 
 
 
@@ -337,7 +337,7 @@ Dify 在本地安装是基于本地 Docker，相信佬友们一定不陌生，Do
 
 
 
-![image-20251111182242875](https://cdn.jsdelivr.net/gh/miku8miku/images@main/202511111822005.png)
+![image-20251111182242875](https://cdn.bili33.top/gh/miku8miku/images@main/202511111822005.png)
 
 目前 Dify 工作流分成两种类型：
 
@@ -357,29 +357,29 @@ Dify 在本地安装是基于本地 Docker，相信佬友们一定不陌生，Do
 
 
 
-![image-20251111182254283](https://cdn.jsdelivr.net/gh/miku8miku/images@main/202511111822527.png)
+![image-20251111182254283](https://cdn.bili33.top/gh/miku8miku/images@main/202511111822527.png)
 
 2、进入工作流界面，首先看到的是一个**开始**节点。右侧则是这个节点的参数配置页，这里的参数，我们暂时用不到，因此先**留空**。
 
-![image-20251111182312865](https://cdn.jsdelivr.net/gh/miku8miku/images@main/202511111823964.png)
+![image-20251111182312865](https://cdn.bili33.top/gh/miku8miku/images@main/202511111823964.png)
 
-![image-20251111182326682](https://cdn.jsdelivr.net/gh/miku8miku/images@main/202511111823807.png)
+![image-20251111182326682](https://cdn.bili33.top/gh/miku8miku/images@main/202511111823807.png)
 
 3、点击**开始**后边的 **+ **号，我们点击**工具 **，点击**网页抓取**，点选**网页爬虫**，这样操作后，就会发现在开始节点后有了**网页爬虫**这个节点
 
 
 
-![image-20251111182341124](https://cdn.jsdelivr.net/gh/miku8miku/images@main/202511111823242.png)
+![image-20251111182341124](https://cdn.bili33.top/gh/miku8miku/images@main/202511111823242.png)
 
 
 
-![image-20251111182350249](https://cdn.jsdelivr.net/gh/miku8miku/images@main/202511111823370.png)
+![image-20251111182350249](https://cdn.bili33.top/gh/miku8miku/images@main/202511111823370.png)
 
 4、右侧的网页爬虫参数配置中，把这个节点名称修改成**新闻抓取**，并且将要抓取的文章网址粘贴到**网页链接**中，输出变量保持不变，但是后面的操作会用到 **text** 这个变量
 
 
 
-![image-20251111182359291](https://cdn.jsdelivr.net/gh/miku8miku/images@main/202511111823415.png)
+![image-20251111182359291](https://cdn.bili33.top/gh/miku8miku/images@main/202511111823415.png)
 
 
 
@@ -387,33 +387,33 @@ Dify 在本地安装是基于本地 Docker，相信佬友们一定不陌生，Do
 
 
 
-![image-20251111182412184](https://cdn.jsdelivr.net/gh/miku8miku/images@main/202511111824293.png)
+![image-20251111182412184](https://cdn.bili33.top/gh/miku8miku/images@main/202511111824293.png)
 
 
 
-![image-20251111182428673](https://cdn.jsdelivr.net/gh/miku8miku/images@main/202511111824788.png)
+![image-20251111182428673](https://cdn.bili33.top/gh/miku8miku/images@main/202511111824788.png)
 
 6、在 **LLM** 右侧的参数配置中，做如下修改，将 **LLM** 修改为**英文翻译**，选定了 gemini-2.0-flash-exp 作为模型（模型可以自选）。
 
 
 
-![image-20251111182444288](https://cdn.jsdelivr.net/gh/miku8miku/images@main/202511111824400.png)
+![image-20251111182444288](https://cdn.bili33.top/gh/miku8miku/images@main/202511111824400.png)
 
 将上下文中选定新闻抓取中的 (x) text 变量
 
 
 
-![image-20251111182458536](https://cdn.jsdelivr.net/gh/miku8miku/images@main/202511111824707.png)
+![image-20251111182458536](https://cdn.bili33.top/gh/miku8miku/images@main/202511111824707.png)
 
 
 
-![image-20251111182516396](https://cdn.jsdelivr.net/gh/miku8miku/images@main/202511111825513.png)
+![image-20251111182516396](https://cdn.bili33.top/gh/miku8miku/images@main/202511111825513.png)
 
 在系统提示词中，这样写
 
 
 
-![image-20251111182527030](https://cdn.jsdelivr.net/gh/miku8miku/images@main/202511111825180.png)
+![image-20251111182527030](https://cdn.bili33.top/gh/miku8miku/images@main/202511111825180.png)
 
 
 
@@ -421,7 +421,7 @@ Dify 在本地安装是基于本地 Docker，相信佬友们一定不陌生，Do
 
 
 
-![image-20251111182532887](https://cdn.jsdelivr.net/gh/miku8miku/images@main/202511111825005.png)
+![image-20251111182532887](https://cdn.bili33.top/gh/miku8miku/images@main/202511111825005.png)
 
 
 
@@ -429,7 +429,7 @@ Dify 在本地安装是基于本地 Docker，相信佬友们一定不陌生，Do
 
 
 
-![image-20251111182539015](https://cdn.jsdelivr.net/gh/miku8miku/images@main/202511111825255.png)
+![image-20251111182539015](https://cdn.bili33.top/gh/miku8miku/images@main/202511111825255.png)
 
 
 
@@ -437,7 +437,7 @@ Dify 在本地安装是基于本地 Docker，相信佬友们一定不陌生，Do
 
 
 
-![image-20251111182547559](https://cdn.jsdelivr.net/gh/miku8miku/images@main/202511111825681.png)
+![image-20251111182547559](https://cdn.bili33.top/gh/miku8miku/images@main/202511111825681.png)
 
 
 
@@ -445,7 +445,7 @@ Dify 在本地安装是基于本地 Docker，相信佬友们一定不陌生，Do
 
 
 
-![image-20251111182600770](https://cdn.jsdelivr.net/gh/miku8miku/images@main/202511111826934.png)
+![image-20251111182600770](https://cdn.bili33.top/gh/miku8miku/images@main/202511111826934.png)
 
 
 
@@ -453,7 +453,7 @@ Dify 在本地安装是基于本地 Docker，相信佬友们一定不陌生，Do
 
 
 
-![image-20251111182621623](https://cdn.jsdelivr.net/gh/miku8miku/images@main/202511111826752.png)
+![image-20251111182621623](https://cdn.bili33.top/gh/miku8miku/images@main/202511111826752.png)
 
 
 
@@ -463,7 +463,7 @@ Dify 在本地安装是基于本地 Docker，相信佬友们一定不陌生，Do
 
 
 
-![image-20251111182646827](https://cdn.jsdelivr.net/gh/miku8miku/images@main/202511111826960.png)
+![image-20251111182646827](https://cdn.bili33.top/gh/miku8miku/images@main/202511111826960.png)
 
 
 
@@ -479,13 +479,13 @@ Dify 在本地安装是基于本地 Docker，相信佬友们一定不陌生，Do
 
 
 
-![image-20251111182706429](https://cdn.jsdelivr.net/gh/miku8miku/images@main/202511111827558.png)
+![image-20251111182706429](https://cdn.bili33.top/gh/miku8miku/images@main/202511111827558.png)
 
 
 
 
 
-![image-20251111182714609](https://cdn.jsdelivr.net/gh/miku8miku/images@main/202511111827758.png)
+![image-20251111182714609](https://cdn.bili33.top/gh/miku8miku/images@main/202511111827758.png)
 
 
 
@@ -493,13 +493,13 @@ Dify 在本地安装是基于本地 Docker，相信佬友们一定不陌生，Do
 
 
 
-![image-20251111182723707](https://cdn.jsdelivr.net/gh/miku8miku/images@main/202511111827851.png)
+![image-20251111182723707](https://cdn.bili33.top/gh/miku8miku/images@main/202511111827851.png)
 
 
 
 会弹出一个对话框，点击**运行**
 
-![image-20251111182739737](https://cdn.jsdelivr.net/gh/miku8miku/images@main/202511111827853.png)
+![image-20251111182739737](https://cdn.bili33.top/gh/miku8miku/images@main/202511111827853.png)
 
 
 
@@ -507,7 +507,7 @@ Dify 在本地安装是基于本地 Docker，相信佬友们一定不陌生，Do
 
 
 
-![image-20251111182754640](https://cdn.jsdelivr.net/gh/miku8miku/images@main/202511111827761.png)
+![image-20251111182754640](https://cdn.bili33.top/gh/miku8miku/images@main/202511111827761.png)
 
 只需要几十秒钟，这个工作流就高效自动地完成了网页的爬取，翻译，编辑成稿的一系列流程。这次领导应该不会再说慢了吧。
 

@@ -197,7 +197,7 @@ tags:
 * **Webpack** 是一个现代 JavaScript 应用程序的静态模块打包器。它可以将开发中的静态资源（如 JavaScript、CSS、图片等）打包成模块，利用加载器和插件处理这些资源，最终输出适合生产环境的代码。
 * Webpack 构建时会递归分析依赖关系图，处理模块并将它们打包在一起，常用于前端开发中的资源管理。
 
-![image-20251106101329717](https://fastly.jsdelivr.net/gh/miku8miku/images@main//202511061013326.png)
+![image-20251106101329717](https://cdn.bili33.top/gh/miku8miku/images@main//202511061013326.png)
 
 ## 2. Webpack 工作原理
 
@@ -224,14 +224,14 @@ tags:
 
 * **定位加载器**：首先需要找到 Webpack 输出的加载器（例如 `N` 函数）。加载器一般通过形参传递模块，内部使用 `exports` 导出模块。
 
-![image-20251106101806463](https://fastly.jsdelivr.net/gh/miku8miku/images@main//202511061018722.png)
+![image-20251106101806463](https://cdn.bili33.top/gh/miku8miku/images@main//202511061018722.png)
 
-![image-20251106101655038](https://fastly.jsdelivr.net/gh/miku8miku/images@main//202511061016198.png)
+![image-20251106101655038](https://cdn.bili33.top/gh/miku8miku/images@main//202511061016198.png)
 
 * **获取模块**：Webpack 会将模块通过下标或键值对的方式存储在数组或字典对象中。在数组形式下，模块按顺序排列，可以通过下标访问；在字典形式下，可以通过键来直接访问模块。
 * **处理加密模块**：例如，在解密登录算法时，找到加密模块后，我们需要将其提取出来并在本地模拟执行，从而还原加密过程。
 
-![image-20251106101551711](https://fastly.jsdelivr.net/gh/miku8miku/images@main//202511061015901.png)
+![image-20251106101551711](https://cdn.bili33.top/gh/miku8miku/images@main//202511061015901.png)
 
 ## 5. 常见问题与难点
 

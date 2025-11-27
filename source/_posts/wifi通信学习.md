@@ -29,7 +29,7 @@ QCI 是 **QoS Class Identifier**（服务质量等级标识符）的缩写，主
 
 **重要原则：QCI 值越小，优先级越高。**
 
-![QCI示意图](https://fastly.jsdelivr.net/gh/miku8miku/images@main//202510301529075.png)
+![QCI示意图](https://cdn.bili33.top/gh/miku8miku/images@main//202510301529075.png)
 
 ## IMEI选择的核心原则
 

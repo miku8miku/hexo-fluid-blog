@@ -130,7 +130,7 @@ const res = obj.add();   // 6
 
 打开开发者工具后，有一些面板需要重点认识一下（下图框选部分）：
 
-![img](https://fastly.jsdelivr.net/gh/miku8miku/images@main//202511031610087.png)
+![img](https://cdn.bili33.top/gh/miku8miku/images@main//202511031610087.png)
 
 **Elements面板**: 展示html标签的面板，可以用来查看html页面中感兴趣的**文本或者图片**。
 
@@ -138,11 +138,11 @@ const res = obj.add();   // 6
 
 **Source面板**：这是js调试主要在这个面板进行，重点关注一下调试区。**Breakpoints**可以查看我们下的断点，XHR/fetch Breakpoints可以**下xhr断点**，Event Listener Breakpoints可以下**事件监听断点**，如js加载的断点，到时**调试瑞数**会用到。这个面板相对而言比较复杂，但是用多了就会认识全了。
 
-![img](https://fastly.jsdelivr.net/gh/miku8miku/images@main//202511031609489.png)
+![img](https://cdn.bili33.top/gh/miku8miku/images@main//202511031609489.png)
 
 **Network面板**：这里记录了操作浏览器时发送的一些数据包。点击**放大镜图标**可以搜索我们**感兴趣的文字**，点击Fetch/XHR可以看到发送的xhr请求，**动态数据**就在这里查看。
 
-![img](https://fastly.jsdelivr.net/gh/miku8miku/images@main//202511031609598.png)
+![img](https://cdn.bili33.top/gh/miku8miku/images@main//202511031609598.png)
 
 **Application面板**：查看cookies，遇到cookie反爬则用得较多。
 
@@ -152,14 +152,14 @@ const res = obj.add();   // 6
 
 - 最简单的是在Network面板中直接搜索文本内容，如果可以搜到就直接可以定位数据包了。这里搜索"为人父母"，则可以搜到相应的数据包，在左侧面板中点击即可快速定位到目标数据包。
 
-  ![img](https://fastly.jsdelivr.net/gh/miku8miku/images@main//202511031610998.png)
+  ![img](https://cdn.bili33.top/gh/miku8miku/images@main//202511031610998.png)
 
 - 可以通过数据包的大小来定位，点一下size列，可以按数据包大小进行排列，有时也能快速定位。
 
 - xhr数据，一般涉及逆向的数据包很大概率是xhr接口，因此可以直接在xhr数据包中快速定位。
 
-![image-20251103161542953](https://fastly.jsdelivr.net/gh/miku8miku/images@main//202511031615222.png)
-![image-20251103161713818](https://fastly.jsdelivr.net/gh/miku8miku/images@main//202511031617084.png)
+![image-20251103161542953](https://cdn.bili33.top/gh/miku8miku/images@main//202511031615222.png)
+![image-20251103161713818](https://cdn.bili33.top/gh/miku8miku/images@main//202511031617084.png)
 
 curl请求转换工具网站：
 - [https://curlconverter.com/](https://curlconverter.com/)
@@ -171,7 +171,7 @@ curl请求转换工具网站：
 
 通常需要**逆向的位置**一般在**Request headers、Payload、Response和Cookie**中。下图中数据包的url的查询关键字中有一个analysis的是无法看懂的，这个就是**密文，需要着重分析。**
 
-![img](https://fastly.jsdelivr.net/gh/miku8miku/images@main//202511041453903.png)
+![img](https://cdn.bili33.top/gh/miku8miku/images@main//202511041453903.png)
 
 ## Hook方法
 
@@ -199,7 +199,7 @@ hook技术可以改变js函数的执行行为，**针对一些加密函数可以
 在payload中存在analysis，是一个密文，则需要对其进行逆向分析。可以看到该数据包是一个xhr请求，可以尝试去hook XMLHttpRequest.open方法。
 ```
 
-![img](https://fastly.jsdelivr.net/gh/miku8miku/images@main//202511041450264.png)
+![img](https://cdn.bili33.top/gh/miku8miku/images@main//202511041450264.png)
 
 ```javascript
 (function () {
@@ -215,7 +215,7 @@ hook技术可以改变js函数的执行行为，**针对一些加密函数可以
 
 url.indexOf("analysis") != -1这行代码表示在url中存在analysis，此时会执行debugger语句，立即断住。此时**向上跟栈，可以定位加密位置**。通过该方法可以很快地定位加密点。
 
-![img](https://fastly.jsdelivr.net/gh/miku8miku/images@main//202511041450258.png)
+![img](https://cdn.bili33.top/gh/miku8miku/images@main//202511041450258.png)
 
 关于xhr请求，`XMLHttpRequest.send, XMLHttpRequest.setRequestHeader和XMLHttpRequest.`onreadystatechange这几个方法很重要，需要重点关注。
 
@@ -227,7 +227,7 @@ url.indexOf("analysis") != -1这行代码表示在url中存在analysis，此时�
 
 练习网址：aHR0cHM6Ly93d3cuMTBqcWthLmNvbS5jbi8=
 
-![img](https://fastly.jsdelivr.net/gh/miku8miku/images@main//202511041453623.png)
+![img](https://cdn.bili33.top/gh/miku8miku/images@main//202511041453623.png)
 
 cookie是以键值对的形式存储的，其中键名为v的值是需要逆向分析的。可以使用以下代码进行hook。
 
@@ -352,7 +352,7 @@ cookie是以键值对的形式存储的，其中键名为v的值是需要逆向�
 
 再看响应，是密文，需要解密处理，因此需要解决sign和解密[响应体](https://so.csdn.net/so/search?q=响应体&spm=1001.2101.3001.7020)两个问题。
 
-![img](https://fastly.jsdelivr.net/gh/miku8miku/images@main//202511041523692.png)
+![img](https://cdn.bili33.top/gh/miku8miku/images@main//202511041523692.png)
 
 #### 1.1 直接搜索
 
@@ -372,7 +372,7 @@ cookie是以键值对的形式存储的，其中键名为v的值是需要逆向�
 
 如果搜索不到，则可以通过xhr断点来定位。同样是该接口，复制路径/webtranslate，到source面板xhr断点处设置断点。
 
-![img](https://fastly.jsdelivr.net/gh/miku8miku/images@main//202511041523623.png)
+![img](https://cdn.bili33.top/gh/miku8miku/images@main//202511041523623.png)
 
 再次触发该接口（随便输入文字即可），会断住,如下图。
 
@@ -386,7 +386,7 @@ cookie是以键值对的形式存储的，其中键名为v的值是需要逆向�
 
 这和xhr有点类似，也要向上跟栈，但入口会有不同。最后也是在I栈成功定位。
 
-![img](https://fastly.jsdelivr.net/gh/miku8miku/images@main//202511041523384.png)
+![img](https://cdn.bili33.top/gh/miku8miku/images@main//202511041523384.png)
 
 ### 2. JS代码本地运行
 
@@ -398,11 +398,11 @@ cookie是以键值对的形式存储的，其中键名为v的值是需要逆向�
 
 点击一下箭头指向的链接，即可跳转到k的函数内部。进去可以看到，sign又是有S函数生成的，传入了o和e两个值生成的，此时需要再去跟一下S函数。相同的方法，鼠标悬停在S函数的上方，点击进入S函数内部。
 
-![img](https://fastly.jsdelivr.net/gh/miku8miku/images@main//202511041523438.png)
+![img](https://cdn.bili33.top/gh/miku8miku/images@main//202511041523438.png)
 
 在S函数中，又嵌套了一个_函数，位置如下。
 
-![img](https://fastly.jsdelivr.net/gh/miku8miku/images@main//202511041523854.png)
+![img](https://cdn.bili33.top/gh/miku8miku/images@main//202511041523854.png)
 
 现在对逆向是不是有了更清晰的认识，说白了，就是一直往上跟js的执行逻辑。现在把这些代码都复制下来，保存成本地js文件，用nodeJs执行。如果成功，则逆向成功。
 
@@ -410,11 +410,11 @@ cookie是以键值对的形式存储的，其中键名为v的值是需要逆向�
 
 将上述代码复制到本地，如下图，执行k函数。
 
-![img](https://fastly.jsdelivr.net/gh/miku8miku/images@main//202511041523664.png)
+![img](https://cdn.bili33.top/gh/miku8miku/images@main//202511041523664.png)
 
 结果报错了。
 
-![img](https://fastly.jsdelivr.net/gh/miku8miku/images@main//202511041523628.png)
+![img](https://cdn.bili33.top/gh/miku8miku/images@main//202511041523628.png)
 
 这里提示i没有定义。这里i是啥呢？需要根据网站的js进行分析，像是一个标准库。
 
@@ -422,7 +422,7 @@ cookie是以键值对的形式存储的，其中键名为v的值是需要逆向�
 
 如果你比较熟悉nodejs的话，其实很快就知道，i其实是nodejs自带的一个模块crypto。于是可以直接把i替换成crypto，最后执行成功。
 
-![img](https://fastly.jsdelivr.net/gh/miku8miku/images@main//202511041523743.png)
+![img](https://cdn.bili33.top/gh/miku8miku/images@main//202511041523743.png)
 
 到此，sign的逆向过程就全部结束了，是不是很简单呢。
 
