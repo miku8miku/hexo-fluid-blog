@@ -1,7 +1,7 @@
 ---
 title: JS逆向教程二：哈希算法与对称加密实战
 date: 2025-11-05 10:00:00
-index_img: https://fastly.jsdelivr.net/gh/miku8miku/images@main//202511051029702.png
+index_img: https://cdn.bili33.top/gh/miku8miku/images@main//202511051029702.png
 categories: 技术教程
 tags:
   - JS逆向
@@ -74,7 +74,7 @@ CryptoJS.HmacMD5('msg', 'key').toString();
 - 新接口翻页参数 `sign=32 位密文` → 按上流程验证是否为 MD5。  
 - 要求：本地复现 `sign` 生成，成功获取翻页数据。
 
-![image-20251105090810313](https://fastly.jsdelivr.net/gh/miku8miku/images@main//202511050908354.png)
+![image-20251105090810313](https://cdn.bili33.top/gh/miku8miku/images@main//202511050908354.png)
 
 ---
 
@@ -154,10 +154,10 @@ padding （填充方式）对于[加密解密](https://so.csdn.net/so/search?q=�
 目的：实现登录
 逆向字段：password  /qTSTHuUA2JObO29aR/lbg==
 
-先看看堆栈，发现有个login.html的栈，很大概率应该是这了![img](https://fastly.jsdelivr.net/gh/miku8miku/images@main//202511050934884.png)
+先看看堆栈，发现有个login.html的栈，很大概率应该是这了![img](https://cdn.bili33.top/gh/miku8miku/images@main//202511050934884.png)
 点进去看看
 
-![img](https://fastly.jsdelivr.net/gh/miku8miku/images@main//202511050934861.png)
+![img](https://cdn.bili33.top/gh/miku8miku/images@main//202511050934861.png)
 很明显有个aes函数对数据进行了加密，下断点，进行跟栈。是一个标准的AES，直接利用标准库实现，还是很简单的。
 
 ---
@@ -219,7 +219,7 @@ console.log('Decrypted:', decrypted);
 
 **登录接口分析**
 
-![img](https://fastly.jsdelivr.net/gh/miku8miku/images@main//202511050940561.png)
+![img](https://cdn.bili33.top/gh/miku8miku/images@main//202511050940561.png)
 
 pwd应该是加密参数。需要去分析。老规矩，还是先要定位加密位置。
 
@@ -228,11 +228,11 @@ pwd应该是加密参数。需要去分析。老规矩，还是先要定位加�
 ![img](https://i-blog.csdnimg.cn/direct/094c09a92002480198fde2186ec261c0.png)
 
 在encryptedString处下断点，进行跟栈分析。
-![img](https://fastly.jsdelivr.net/gh/miku8miku/images@main//202511050940536.png)
+![img](https://cdn.bili33.top/gh/miku8miku/images@main//202511050940536.png)
 
 这里的key_to_encode是不是一个字符串，需要看看在哪里生成的。**全局搜索**一下，发现在index.js里面生成。把代码直接扣下来。再定位encryptedString方法，在RSA.min.js文件里面，直接全扣，就搞定了。
 
-![img](https://fastly.jsdelivr.net/gh/miku8miku/images@main//202511050940278.png)
+![img](https://cdn.bili33.top/gh/miku8miku/images@main//202511050940278.png)
 
 ---
 

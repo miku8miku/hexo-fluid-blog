@@ -1,7 +1,7 @@
 ---
 title: 系统化利用 AI 快速理解项目源码的完整指南
 date: 2025-10-28 10:00:00
-index_img: https://fastly.jsdelivr.net/gh/miku8miku/images@main//202510202340543.png
+index_img: https://cdn.bili33.top/gh/miku8miku/images@main//202510202340543.png
 categories: AI应用
 tags:
   - AI辅助学习
