@@ -548,3 +548,22 @@ openclaw pairing approve telegram RequestID
 复制容器空间内的文件
 
 docker run --rm -v openclaw-data:/data_from_volume -v C:/Users/94362/Downloads/exported_data:/data_on_host alpine sh -c "cp -a /data_from_volume/. /data_on_host/"
+
+设置自定义模型配置
+
+openclaw config set 'models.providers.longcat' --json '{
+  "baseUrl": "https://api.longcat.chat/openai",
+  "apiKey": "",
+  "api": "openai-completions",
+  "models": [
+    { "id": "longcat-flash-chat", "name": "LongCat-Flash-Chat" }
+  ]
+}'
+
+设置合并模式
+
+openclaw config set models.mode merge
+
+设置默认模型
+
+openclaw models set longcat/longcat-flash-chat
