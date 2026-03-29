@@ -186,7 +186,7 @@ index:
 # Post Page
 #---------------------------
 post:
-  banner_img: https://api.nsmao.net/api/Img/query?key=k6vGdTakfOLPFWwfcFiU7RT6bU&sort=scenery
+  banner_img: https://pic1.imgdb.cn/item/6975e2c56deeadc41a33a4af.png
 
   # 文章标题下方的元信息
   # Meta information below title
@@ -411,7 +411,7 @@ waline:
 # Archive Page
 #---------------------------
 archive:
-  banner_img: https://api.nsmao.net/api/Img/query?key=k6vGdTakfOLPFWwfcFiU7RT6bU&sort=belle
+  banner_img: https://pic1.imgdb.cn/item/6975e3106deeadc41a33a4b6.png
 
 
 #---------------------------
@@ -420,7 +420,7 @@ archive:
 #---------------------------
 category:
   enable: true
-  banner_img: https://api.nsmao.net/api/Img/query?key=k6vGdTakfOLPFWwfcFiU7RT6bU&sort=belle
+  banner_img: https://pic1.imgdb.cn/item/6975e2ff6deeadc41a33a4b5.png
 
 
 #---------------------------
@@ -429,7 +429,7 @@ category:
 #---------------------------
 tag:
   enable: true
-  banner_img: https://api.nsmao.net/api/Img/query?key=k6vGdTakfOLPFWwfcFiU7RT6bU&sort=belle
+  banner_img: https://pic1.imgdb.cn/item/6975e2cc6deeadc41a33a4b0.png
 
 
 #---------------------------
@@ -437,7 +437,7 @@ tag:
 # About Page
 #---------------------------
 about:
-  banner_img: https://api.nsmao.net/api/Img/query?key=k6vGdTakfOLPFWwfcFiU7RT6bU&sort=belle
+  banner_img: https://pic1.imgdb.cn/item/6965096e51d5e4e5d572b1d3.png
   avatar: /img/myavatar.jpg
   name: KB
   introduce: 锟斤拷烫烫烫
@@ -456,7 +456,7 @@ about:
 # Custom Page through `hexo new page`
 #---------------------------
 page:
-  banner_img: https://api.nsmao.net/api/Img/query?key=k6vGdTakfOLPFWwfcFiU7RT6bU&sort=belle
+  banner_img: https://pic1.imgdb.cn/item/69c8db63bccb565842924b27.png
 
 
 #---------------------------
@@ -465,7 +465,7 @@ page:
 #---------------------------
 page404:
   enable: true
-  banner_img: https://api.nsmao.net/api/Img/query?key=k6vGdTakfOLPFWwfcFiU7RT6bU&sort=belle
+  banner_img: https://pic1.imgdb.cn/item/6975e38e6deeadc41a33a4bd.png
 
 
 #---------------------------
@@ -474,7 +474,7 @@ page404:
 #---------------------------
 links:
   enable: true
-  banner_img: https://api.nsmao.net/api/Img/query?key=k6vGdTakfOLPFWwfcFiU7RT6bU&sort=belle
+  banner_img: https://pic1.imgdb.cn/item/6975e3b06deeadc41a33a4c5.png
   items:  # intro 与 image 可省略
     - {
       title: 'Install Fluid',
