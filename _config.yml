@@ -102,6 +102,19 @@ nofollow:
 sitemap:
   path: sitemap.xml
 
+# RSS Feed configuration for Podcast
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  order_by: -date
+  content: true
+  content_limit: 140
+  content_limit_delim: ' '
+  template:
+  icon: /img/favicon.png
+  autodiscovery: true
+
 mourning:
   # It's recommended to disable it when not in use
   enable: true
