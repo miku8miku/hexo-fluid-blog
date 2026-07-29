@@ -95,14 +95,14 @@ npx skills add https://github.com/mattpocock/skills --skill grill-me
 ```mermaid
 flowchart TD
     A[Idea / 初步计划]
-    B[获取 time + 需求描述]
+    B[输入 grill-me + 需求描述]
     C{已有代码库?}
-    D[先读代码库，可选 grab with]
+    D[先读代码库，可选 grill-with-docs]
     E[从领域约束出发]
     F[沿决策树做分支探索]
     G[一次只问一个问题]
     H{问题可由 codebase 回答?}
-    I[AI 按代码上下文开始出像]
+    I[AI 按代码上下文直接给出答案]
     J{开发或 AI 能拍板?}
     K[用户回答 + AI 推荐方案]
     L[记录待确认项，拉业务确认]
@@ -111,7 +111,7 @@ flowchart TD
     O[达成共享理解]
     P[更新 CONTEXT.md 或 ADR]
     Q[Plan Mode 制定实践计划]
-    R[tdd 或 implement 等后续 cls]
+    R[tdd 或 implement 等后续 skills]
     S[回归验证]
     T[持续优化或新 idea]
 
