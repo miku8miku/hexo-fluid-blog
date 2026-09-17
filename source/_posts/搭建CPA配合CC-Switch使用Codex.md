@@ -13,7 +13,7 @@ tags:
 categories:
   - AI开发
   - 效率工具
-index_img: https://pic1.imgdb.cn/i/033wUaMhUiXJ2dOnnEOv8O.png
+index_img: https://pic1.imgdb.cn/item/69ce82e86ccec478dfad2a2d.png
 description: 详细记录如何利用 CLIProxyAPI (CPA) 本地代理与 CC-Switch 助手，完成服务配置与模型映射，在 Codex 与 Claude Code 中流畅使用 GPT 模型的完整工作流。
 copyright: true
 ---
