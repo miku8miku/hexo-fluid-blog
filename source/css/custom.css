@@ -206,3 +206,306 @@
   }
   
   
+
+/* ==========================================================================
+   Discourse 论坛文章阅读模式样式 (复用 Fluid 基础样式，仅针对阅读组件覆盖)
+   ========================================================================== */
+
+/* 解决 Fluid 中 .post-content 嵌套导致的内边距叠加 */
+.markdown-body .post-content {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/* 阅读器顶部来源与楼层信息栏 */
+.reader-source-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 16px;
+  margin-bottom: 24px;
+  background: rgba(0, 136, 204, 0.05);
+  border: 1px solid rgba(0, 136, 204, 0.15);
+  border-radius: 8px;
+  font-size: 0.875rem;
+  color: var(--sec-text-color, #718096);
+}
+
+[data-user-color-scheme="dark"] .reader-source-bar {
+  background: rgba(56, 189, 248, 0.06);
+  border-color: rgba(56, 189, 248, 0.2);
+}
+
+.reader-source {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  word-break: break-all;
+}
+
+.reader-source .source-label {
+  font-weight: 600;
+  color: var(--post-text-color, #2c3e50);
+}
+
+.post-meta-badges {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.post-number {
+  display: inline-block;
+  padding: 2px 8px;
+  background: rgba(0, 136, 204, 0.12);
+  color: #0088cc;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+[data-user-color-scheme="dark"] .post-number {
+  background: rgba(56, 189, 248, 0.2);
+  color: #38bdf8;
+}
+
+.username {
+  color: var(--sec-text-color, #718096);
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+/* 阅读模式下的 Callout 提示块 */
+.reader-callout {
+  margin: 1.25rem 0 !important;
+  padding: 0.85rem 1.2rem !important;
+  border-left-width: 4px !important;
+  border-left-style: solid !important;
+  border-radius: 6px !important;
+  background-color: rgba(0, 0, 0, 0.02);
+  transition: all 0.2s ease;
+}
+
+.reader-callout.callout-note {
+  border-left-color: #0088cc !important;
+  background-color: rgba(0, 136, 204, 0.06) !important;
+}
+
+.reader-callout.callout-warning {
+  border-left-color: #f59e0b !important;
+  background-color: rgba(245, 158, 11, 0.08) !important;
+}
+
+.reader-callout.callout-tip {
+  border-left-color: #10b981 !important;
+  background-color: rgba(16, 185, 129, 0.07) !important;
+}
+
+[data-user-color-scheme="dark"] .reader-callout.callout-note {
+  border-left-color: #38bdf8 !important;
+  background-color: rgba(56, 189, 248, 0.1) !important;
+}
+
+[data-user-color-scheme="dark"] .reader-callout.callout-warning {
+  border-left-color: #fbbf24 !important;
+  background-color: rgba(251, 191, 36, 0.1) !important;
+}
+
+[data-user-color-scheme="dark"] .reader-callout.callout-tip {
+  border-left-color: #34d399 !important;
+  background-color: rgba(52, 211, 153, 0.1) !important;
+}
+
+.reader-callout .callout-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 0.4rem;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.reader-callout.callout-note .callout-header {
+  color: #0077b6;
+}
+
+.reader-callout.callout-warning .callout-header {
+  color: #d97706;
+}
+
+.reader-callout.callout-tip .callout-header {
+  color: #059669;
+}
+
+[data-user-color-scheme="dark"] .reader-callout.callout-note .callout-header {
+  color: #38bdf8;
+}
+
+[data-user-color-scheme="dark"] .reader-callout.callout-warning .callout-header {
+  color: #fbbf24;
+}
+
+[data-user-color-scheme="dark"] .reader-callout.callout-tip .callout-header {
+  color: #34d399;
+}
+
+.reader-callout .callout-body > *:first-child {
+  margin-top: 0;
+}
+
+.reader-callout .callout-body > *:last-child {
+  margin-bottom: 0;
+}
+
+/* Lightbox 图片容器 */
+.lightbox-wrapper {
+  margin: 1.5rem auto;
+  text-align: center;
+  max-width: 100%;
+}
+
+.lightbox-wrapper a.lightbox {
+  display: inline-block;
+  max-width: 100%;
+  text-decoration: none !important;
+  border-bottom: none !important;
+}
+
+.lightbox-wrapper img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.lightbox-wrapper img:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.14);
+}
+
+.lightbox-wrapper .meta {
+  margin-top: 8px;
+  font-size: 0.8rem;
+  color: var(--sec-text-color, #718096);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  opacity: 0.85;
+}
+
+.lightbox-wrapper .meta svg {
+  display: none !important;
+}
+
+/* 剧透标签 (Spoiler) */
+.spoiler {
+  display: inline-block;
+  filter: blur(5px);
+  background: rgba(128, 128, 128, 0.14);
+  border-radius: 4px;
+  padding: 0 6px;
+  cursor: pointer;
+  transition: filter 0.25s ease, background 0.25s ease;
+  user-select: none;
+}
+
+.spoiler:hover, .spoiler:active {
+  filter: blur(0);
+  background: transparent;
+  user-select: auto;
+}
+
+/* 检查清单复选框 (Checklist box) */
+.chcklst-box {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-right: 6px;
+  vertical-align: -2px;
+  border: 1.5px solid var(--sec-text-color, #718096);
+  border-radius: 3px;
+  position: relative;
+  background-color: transparent;
+}
+
+/* 内联话题卡片 (Inline Onebox) */
+.inline-onebox {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 8px;
+  margin: 2px 0;
+  border-radius: 6px;
+  background: rgba(0, 136, 204, 0.08);
+  color: var(--post-link-color, #0088cc) !important;
+  font-size: 0.9em;
+  text-decoration: none !important;
+  border-bottom: none !important;
+  transition: background 0.2s ease;
+}
+
+.inline-onebox:hover {
+  background: rgba(0, 136, 204, 0.16);
+}
+
+[data-user-color-scheme="dark"] .inline-onebox {
+  background: rgba(56, 189, 248, 0.12);
+  color: #38bdf8 !important;
+}
+
+[data-user-color-scheme="dark"] .inline-onebox:hover {
+  background: rgba(56, 189, 248, 0.22);
+}
+
+/* Emoji 图片对齐 */
+img.emoji {
+  width: 1.25em !important;
+  height: 1.25em !important;
+  vertical-align: text-bottom !important;
+  display: inline-block !important;
+  box-shadow: none !important;
+  margin: 0 2px !important;
+}
+
+/* 折叠详情卡片 (Details) */
+details {
+  margin: 1.25rem 0;
+  padding: 0.85rem 1.1rem;
+  border: 1px solid var(--line-color, #e0e0e0);
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.02);
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+[data-user-color-scheme="dark"] details {
+  background: rgba(255, 255, 255, 0.03);
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+details summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--post-heading-color);
+  padding: 4px 0;
+  outline: none;
+  user-select: none;
+}
+
+details[open] summary {
+  margin-bottom: 0.75rem;
+  border-bottom: 1px dashed var(--line-color, #e0e0e0);
+}
+
+/* 表格容器自适应横向滚动 */
+.md-table {
+  overflow-x: auto;
+  margin: 1.5rem 0;
+}
