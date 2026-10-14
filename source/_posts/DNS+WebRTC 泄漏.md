@@ -142,20 +142,23 @@ DNS（域名系统）是互联网的“电话簿”，负责将人类可读的�
 很多普通代理工具（特别是仅配置了系统 HTTP/Socks5 代理时）只负责接管建立连接后的 TCP 数据流。在建立连接前，**“把域名解析成 IP”这个动作如果发生在你本机的操作系统上**，就会出现以下漏洞：
 
 ```mermaid
-flowchart TD
-  subgraph 泄露情况[❌ DNS 发生泄漏]
-    A1[浏览器访问敏感网站] -->|本地发起 UDP 53 明文查询| B1[国内运营商 Local DNS]
-    B1 -->|暴露用户真实 IP 与访问域名| C1[DNS 解析结果返回]
-    C1 -->|通过代理发起 TCP 连接| D1[目标网站]
-    D1 -.->|探测检测到中国 ISP 的解析记录| E1[⚠️ 判定代理伪装，触发风控拦截]
-  end
+graph TD
+    subgraph 泄露情况
+        A1["浏览器访问敏感网站"] -->|本地发起 UDP 53 明文查询| B1["国内运营商 Local DNS"]
+        B1 -->|暴露用户真实 IP 与访问域名| C1["DNS 解析结果返回"]
+        C1 -->|通过代理发起 TCP 连接| D1["目标网站"]
+        D1 -.->|探测检测到中国 ISP 的解析记录| E1["判定代理伪装，触发风控拦截"]
+    end
 
-  subgraph 安全情况[✅ 远端安全防泄漏]
-    A2[浏览器访问敏感网站] -->|Fake-IP 或域名直接打包| B2[代理加密隧道]
-    B2 -->|远端服务器发起安全查询| C2[海外干净 DNS / 节点直解]
-    C2 -->|远端建立连接返回数据| D2[目标网站]
-    D2 -.->|只看到海外安全 DNS| E2[🟢 安全通过，无泄漏]
-  end
+    subgraph 安全情况
+        A2["浏览器访问敏感网站"] -->|Fake-IP 或域名直接打包| B2["代理加密隧道"]
+        B2 -->|远端服务器发起安全查询| C2["海外干净 DNS / 节点直解"]
+        C2 -->|远端建立连接返回数据| D2["目标网站"]
+        D2 -.->|只看到海外安全 DNS| E2["安全通过，无泄漏"]
+    end
+
+    style E1 fill:#ffeef0,stroke:#f85149,stroke-width:1px
+    style E2 fill:#e6ffed,stroke:#2ea44f,stroke-width:1px
 ```
 
 ### 3. 目标网站（如 ipleak.net、风控系统）是如何检测出你的真实 DNS 的？
@@ -206,21 +209,21 @@ flowchart TD
 
 ```mermaid
 sequenceDiagram
-  autonumber
-  participant WebPage as 目标网页 (含风控 JS 脚本)
-  participant BrowserAPI as 浏览器底层 WebRTC 引擎
-  participant PhysicalNIC as 本机真实网卡 (物理网络栈)
-  participant STUN as 公共 STUN 服务器 (UDP)
-  participant ProxyTunnel as 浏览器常规应用层代理通道
+    autonumber
+    participant WebPage as 目标网页（含风控脚本）
+    participant BrowserAPI as 浏览器底层 WebRTC 引擎
+    participant PhysicalNIC as 本机真实网卡
+    participant STUN as 公共 STUN 服务器
+    participant ProxyTunnel as 浏览器常规应用层代理通道
 
-  WebPage->>BrowserAPI: 执行 new RTCPeerConnection()
-  Note over BrowserAPI,PhysicalNIC: WebRTC 绕过应用层代理，直接调用底层系统 API
-  BrowserAPI->>PhysicalNIC: 遍历本机所有物理网络适配器
-  PhysicalNIC-->>BrowserAPI: 暴露内网真实 IP (如 192.168.1.100)
-  BrowserAPI->>STUN: 直接发射底层 UDP 探测打洞包 (绕过代理)
-  STUN-->>BrowserAPI: 在响应中回显请求者的真实公网物理 IP!
-  BrowserAPI-->>WebPage: 通过 onicecandidate 事件将真实 IP 奉送给网页
-  WebPage->>WebPage: ⚠️ 发现海外代理 IP 背后对应的中国物理真实 IP！
+    WebPage->>BrowserAPI: 触发 RTCPeerConnection 调用
+    Note over BrowserAPI,PhysicalNIC: WebRTC 绕过应用层代理，直接调用底层系统 API
+    BrowserAPI->>PhysicalNIC: 遍历本机所有物理网络适配器
+    PhysicalNIC-->>BrowserAPI: 暴露内网真实 IP
+    BrowserAPI->>STUN: 直接发射底层 UDP 探测打洞包（绕过代理）
+    STUN-->>BrowserAPI: 在响应中回显请求者的真实公网物理 IP
+    BrowserAPI-->>WebPage: 通过 onicecandidate 事件将真实 IP 奉送给网页
+    WebPage->>WebPage: 发现海外代理 IP 背后对应的中国物理真实 IP
 ```
 
 通过上述时序图可以看出：
