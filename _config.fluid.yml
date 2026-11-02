@@ -149,7 +149,7 @@ footer:
 #---------------------------
 index:
   # banner_img: img\bg\qygw.jpg # 首页 Banner 头图，以下相同
-  banner_img: https://r2.miku2024.top/r2/2026/11/06b1b8f70adcffaf09e57b792e45f2e2.png
+  banner_img: https://r2.miku2024.top/r2/2026/11/3c7f717764ca75bc6376f9674822b309.webp
 
 
   # 首页副标题的独立设置
@@ -186,7 +186,7 @@ index:
 # Post Page
 #---------------------------
 post:
-  banner_img: https://r2.miku2024.top/r2/2026/11/409b14afc47c3441d7fcf61da4e0e2c9.png
+  banner_img: https://r2.miku2024.top/r2/2026/11/26bea048769db4d57ce645b70bebbee6.webp
 
   # 文章标题下方的元信息
   # Meta information below title
@@ -420,7 +420,7 @@ archive:
 #---------------------------
 category:
   enable: true
-  banner_img: https://r2.miku2024.top/r2/2026/11/b4ee41097386fc8468942dc7f00bd7d0.png
+  banner_img: https://r2.miku2024.top/r2/2026/11/0f12fa3aab81cece73a6e181d3b2a4b3.webp
 
 
 #---------------------------
