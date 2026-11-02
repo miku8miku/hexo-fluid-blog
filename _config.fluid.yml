@@ -149,7 +149,7 @@ footer:
 #---------------------------
 index:
   # banner_img: img\bg\qygw.jpg # 首页 Banner 头图，以下相同
-  banner_img: https://pic1.imgdb.cn/item/68ca94b5c5157e1a8812a525.jpg
+  banner_img: https://r2.miku2024.top/r2/2026/11/06b1b8f70adcffaf09e57b792e45f2e2.png
 
 
   # 首页副标题的独立设置
@@ -186,7 +186,7 @@ index:
 # Post Page
 #---------------------------
 post:
-  banner_img: https://pic1.imgdb.cn/item/6975e2c56deeadc41a33a4af.png
+  banner_img: https://r2.miku2024.top/r2/2026/11/409b14afc47c3441d7fcf61da4e0e2c9.png
 
   # 文章标题下方的元信息
   # Meta information below title
@@ -411,7 +411,7 @@ waline:
 # Archive Page
 #---------------------------
 archive:
-  banner_img: https://pic1.imgdb.cn/item/6975e3106deeadc41a33a4b6.png
+  banner_img: https://r2.miku2024.top/r2/2026/11/867dacd10e59c914ed5c41f93d380236.png
 
 
 #---------------------------
@@ -420,7 +420,7 @@ archive:
 #---------------------------
 category:
   enable: true
-  banner_img: https://pic1.imgdb.cn/item/6975e2ff6deeadc41a33a4b5.png
+  banner_img: https://r2.miku2024.top/r2/2026/11/b4ee41097386fc8468942dc7f00bd7d0.png
 
 
 #---------------------------
@@ -429,7 +429,7 @@ category:
 #---------------------------
 tag:
   enable: true
-  banner_img: https://pic1.imgdb.cn/item/6975e2cc6deeadc41a33a4b0.png
+  banner_img: https://r2.miku2024.top/r2/2026/11/153e575e2223f79c1b49cb55dd5399c8.png
 
 
 #---------------------------
@@ -437,7 +437,7 @@ tag:
 # About Page
 #---------------------------
 about:
-  banner_img: https://pic1.imgdb.cn/item/6965096e51d5e4e5d572b1d3.png
+  banner_img: https://r2.miku2024.top/r2/2026/11/35b625b50643cf7bdeaae2429cf13fd4.png
   avatar: /img/myavatar.jpg
   name: KB
   introduce: 锟斤拷烫烫烫
@@ -456,7 +456,7 @@ about:
 # Custom Page through `hexo new page`
 #---------------------------
 page:
-  banner_img: https://pic1.imgdb.cn/item/69c8db63bccb565842924b27.png
+  banner_img: https://r2.miku2024.top/r2/2026/11/9ab2c3796a7976d3e6527f5d4ae87004.png
 
 
 #---------------------------
@@ -465,7 +465,7 @@ page:
 #---------------------------
 page404:
   enable: true
-  banner_img: https://pic1.imgdb.cn/item/6975e38e6deeadc41a33a4bd.png
+  banner_img: https://r2.miku2024.top/r2/2026/11/5c7ac12103bb1b9ec98299a7086e7fa2.png
 
 
 #---------------------------
@@ -474,7 +474,7 @@ page404:
 #---------------------------
 links:
   enable: true
-  banner_img: https://pic1.imgdb.cn/item/6975e3b06deeadc41a33a4c5.png
+  banner_img: https://r2.miku2024.top/r2/2026/11/b64090155d71f9277b8faf10fed49d9b.png
   items:  # intro 与 image 可省略
     - {
       title: 'Install Fluid',
