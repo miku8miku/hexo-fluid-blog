@@ -112,27 +112,27 @@ goto End
 
 第一次运行脚本时，系统会自动创建一个名为 `Private` 的文件夹：
 
-![首次运行创建文件夹](https://raw.githubusercontent.com/miku8miku/picture/main/2025/09/upgit_20250920_1758352408.png)
+![首次运行创建文件夹](https://cdn.bili33.top/gh/miku8miku/picture@main/2025/09/upgit_20250920_1758352408.png)
 
 #### 文件夹加锁过程
 
 当您选择加锁时，脚本会询问确认并执行加锁操作：
 
-![加锁确认界面](https://raw.githubusercontent.com/miku8miku/picture/main/2025/09/upgit_20250920_1758352440.png)
+![加锁确认界面](https://cdn.bili33.top/gh/miku8miku/picture@main/2025/09/upgit_20250920_1758352440.png)
 
 加锁成功后，`Private` 文件夹将被重命名为 `Locker` 并设置为隐藏：
 
-![加锁成功提示](https://raw.githubusercontent.com/miku8miku/picture/main/2025/09/upgit_20250920_1758352451.png)
+![加锁成功提示](https://cdn.bili33.top/gh/miku8miku/picture@main/2025/09/upgit_20250920_1758352451.png)
 
 #### 文件夹解锁过程
 
 再次运行脚本时，系统会要求输入密码：
 
-![密码输入界面](https://raw.githubusercontent.com/miku8miku/picture/main/2025/09/upgit_20250920_1758352463.png)
+![密码输入界面](https://cdn.bili33.top/gh/miku8miku/picture@main/2025/09/upgit_20250920_1758352463.png)
 
 输入正确密码后，文件夹将恢复可见状态：
 
-![解锁成功提示](https://raw.githubusercontent.com/miku8miku/picture/main/2025/09/upgit_20250920_1758352487.png)
+![解锁成功提示](https://cdn.bili33.top/gh/miku8miku/picture@main/2025/09/upgit_20250920_1758352487.png)
 
 ## 🔄 工作原理
 

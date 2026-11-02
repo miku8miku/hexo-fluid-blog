@@ -42,7 +42,7 @@ Cloudflare Zero Trust 是一种基于零信任安全模型的解决方案，它�
 3. 在左侧导航栏中找到并点击 **Zero Trust**
 4. 进入 Zero Trust 控制台后，依次点击 **Access** → **Applications**
 
-![进入 Applications 页面](https://raw.githubusercontent.com/miku8miku/picture/main/2025/10/upgit_20251010_1760063939.png)
+![进入 Applications 页面](https://cdn.bili33.top/gh/miku8miku/picture@main/2025/10/upgit_20251010_1760063939.png)
 
 ### 第二步：创建应用程序
 
@@ -56,7 +56,7 @@ Cloudflare Zero Trust 是一种基于零信任安全模型的解决方案，它�
 - **Application domain**：根据实际情况填写需要保护的域名或具体路径
 - **Additional domains**：如果需要保护多个域名或路径，可以点击 "add domain" 继续添加
 
-![应用程序设置](https://raw.githubusercontent.com/miku8miku/picture/main/2025/10/upgit_20251010_1760063946.png)
+![应用程序设置](https://cdn.bili33.top/gh/miku8miku/picture@main/2025/10/upgit_20251010_1760063946.png)
 
 ### 第三步：配置访问策略
 
@@ -66,7 +66,7 @@ Cloudflare Zero Trust 是一种基于零信任安全模型的解决方案，它�
    - **Allow**：白名单规则，只有符合条件的用户才能访问
    - **Block**：黑名单规则，符合条件的用户将被阻止访问
 
-![策略设置](https://raw.githubusercontent.com/miku8miku/picture/main/2025/10/upgit_20251010_1760065721.png)
+![策略设置](https://cdn.bili33.top/gh/miku8miku/picture@main/2025/10/upgit_20251010_1760065721.png)
 
 ### 第四步：配置身份验证规则
 
@@ -85,7 +85,7 @@ Cloudflare Zero Trust 是一种基于零信任安全模型的解决方案，它�
 1. 在 Include 规则中选择 **Email**
 2. 填入您希望允许访问的邮箱地址
 
-![身份验证规则配置](https://raw.githubusercontent.com/miku8miku/picture/main/2025/10/upgit_20251010_1760063956.png)
+![身份验证规则配置](https://cdn.bili33.top/gh/miku8miku/picture@main/2025/10/upgit_20251010_1760063956.png)
 
 ### 第五步：完成配置
 
@@ -97,7 +97,7 @@ Cloudflare Zero Trust 是一种基于零信任安全模型的解决方案，它�
 
 配置完成后，重新访问您的网站，将会看到验证页面。用户需要输入配置的邮箱地址，然后接收验证码进行登录，从而实现对个人网站的访问控制。
 
-![验证页面](https://raw.githubusercontent.com/miku8miku/picture/main/2025/10/upgit_20251010_1760063969.png)
+![验证页面](https://cdn.bili33.top/gh/miku8miku/picture@main/2025/10/upgit_20251010_1760063969.png)
 
 ## ⚙️ 高级配置选项
 

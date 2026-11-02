@@ -48,7 +48,7 @@ FunASR 提供了便捷的脚本和教程，支持预训练模型的推理与微�
 
 访问官方 H5 页面：[FunASR 在线服务](https://www.funasr.com)
 
-![官方页面截图](https://gh.llkk.cc/https://raw.githubusercontent.com/miku8miku/picture/main/2025/09/upgit_20250917_1758099235.png)
+![官方页面截图](https://cdn.bili33.top/gh/miku8miku/picture@main/2025/09/upgit_20250917_1758099235.png)
 
 虽然页面相对简洁，但包含了所有必要的功能。
 
@@ -212,7 +212,7 @@ netstat -tlnp | grep 1009
 
 经过优化的界面显示效果：
 
-![自建服务效果图](https://gh.llkk.cc/https://raw.githubusercontent.com/miku8miku/picture/main/2025/09/upgit_20250917_1758099192.png)
+![自建服务效果图](https://cdn.bili33.top/gh/miku8miku/picture@main/2025/09/upgit_20250917_1758099192.png)
 
 相比官方页面，自定义界面在时间显示等方面更加清晰明了。
 
