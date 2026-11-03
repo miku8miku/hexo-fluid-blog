@@ -1,7 +1,7 @@
 ---
 title: linux.do 专题总结：大模型破限（Jailbreak）与 AI 逆向工具链实战全景
 date: 2026-10-27 10:38:00
-index_img: https://pic1.imgdb.cn/i/034oltBAARqbnpUcvpPVHe.png
+index_img: https://r2.miku2024.top/r2/2026/11/6299d7ad8ecc24476bbad74b8b02b324.webp
 categories:
   - 技术分享
   - 逆向工程

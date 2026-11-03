@@ -1,7 +1,7 @@
 ---
 title: STM32CubeMX 完整使用指南：从项目创建到代码生成
 date: 2021-5-27 18:00:00
-index_img: https://pic1.imgdb.cn/item/68cb6992c5157e1a88142d2e.png
+index_img: https://r2.miku2024.top/r2/2026/11/683eee3ae5d595d6ec578e0ef7bf0e90.webp
 category: 嵌入式开发
 tags:
   - STM32

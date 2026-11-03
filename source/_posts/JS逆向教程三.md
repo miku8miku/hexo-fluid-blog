@@ -1,7 +1,7 @@
 ---
 title: JS逆向教程三：Hook注入与混淆代码分析
 date: 2025-11-06 10:30:00
-index_img: https://pic1.imgdb.cn/item/68f657e63203f7be00835c1b.png
+index_img: https://r2.miku2024.top/r2/2026/11/24e6f93606a293ada44202bcb810a012.webp
 categories: 技术教程
 tags:
   - JS逆向

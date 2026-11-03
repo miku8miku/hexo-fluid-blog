@@ -1,7 +1,7 @@
 ---
 title: ClawCloud Run 云开发平台使用指南
 date: 2025-04-15 11:00:00
-index_img: https://pic1.imgdb.cn/item/68e877a5c5157e1a8860c5d5.png
+index_img: https://r2.miku2024.top/r2/2026/11/75c7cc1019fbd875b4ec083d9e03bf34.webp
 category: 技术教程
 tags:
   - 云服务

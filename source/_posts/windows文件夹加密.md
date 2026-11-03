@@ -1,7 +1,7 @@
 ---
 title: Windows 文件夹加密实用脚本教程
 date: 2025-8-16 16:00:00
-index_img: https://pic1.imgdb.cn/item/68cc3fbac5157e1a8817dd80.png
+index_img: https://r2.miku2024.top/r2/2026/11/8cc4bd6ba48409b828515546bceca5ac.webp
 category: 技术教程
 tags:
   - Windows

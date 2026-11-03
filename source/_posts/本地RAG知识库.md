@@ -1,7 +1,7 @@
 ---
 title: 本地多模态 RAG 架构设计：MoE 大模型 + 双解析引擎 + 图像双路检索
 date: 2026-10-16 16:20:43
-index_img: https://pic1.imgdb.cn/i/033wUVuDKLeFUDjK3xCNt7.png
+index_img: https://r2.miku2024.top/r2/2026/11/5be59615e0c2d53f30907a768b1dc2c5.webp
 categories:
   - AI开发
   - 架构设计

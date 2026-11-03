@@ -1,7 +1,7 @@
 ---
 title: 高通410随身WiFi：开启ADB，切卡密码，build.prop，改串，短信转发
 date: 2025-10-20 12:00:00
-index_img: https://pic1.imgdb.cn/item/68cc404ec5157e1a8817ddd9.png
+index_img: https://r2.miku2024.top/r2/2026/11/b051cbb708e4534d2103d8e0e23bf4ac.webp
 tags:
   - 随身WiFi
   - 高通410

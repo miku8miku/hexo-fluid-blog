@@ -11,7 +11,7 @@ tags:
 categories:
   - AI开发
   - 爬虫技术
-index_img: https://pic1.imgdb.cn/i/1zU8O6jdA8l79wLLQfFMgq.png
+index_img: https://r2.miku2024.top/r2/2026/11/be331a5a30c2b92b9890a900b736a980.webp
 description: 在 AI Agent 时代，如何高效地进行抓包分析？本文介绍基于 HAR 文件的工作流，将网站探索交给人工、请求分析交给 AI，实现更省 Token、更高效的爬虫与自动化脚本开发。
 copyright: true
 ---

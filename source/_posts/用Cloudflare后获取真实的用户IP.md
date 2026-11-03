@@ -1,7 +1,7 @@
 ---
 title: 用Cloudflare后获取真实的用户IP
 date: 2026-1-12 14:43:00
-index_img: https://pic1.imgdb.cn/item/6964611575db907620f560c0.png
+index_img: https://r2.miku2024.top/r2/2026/11/1ba20748c6fb273fb92b0c41264ef9c8.webp
 tags: 
  -运维
  -cloudflare

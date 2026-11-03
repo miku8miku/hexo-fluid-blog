@@ -1,7 +1,7 @@
 ---
 title: 逆向 AI接口技术详解
 date: 2026-02-11 21:30:00
-index_img: https://pic1.imgdb.cn/item/6975e5066deeadc41a33a4d4.png
+index_img: https://r2.miku2024.top/r2/2026/11/4de684c4885a952c5920f10b6a373916.webp
 categories: [技术分享, 逆向工程]
 tags: [AI接口, 逆向分析, API研究, 技术探索]
 ---

@@ -1,7 +1,7 @@
 ---
 title: Fiddler 断点（拦截）功能详解
 date: 2026-01-10 22:31:00
-index_img: https://pic1.imgdb.cn/item/6965096e51d5e4e5d572b1d3.png
+index_img: https://r2.miku2024.top/r2/2026/11/b0f66035b0f4d625c28be36c867cb477.webp
 tags: [Fiddler, 调试, 抓包]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: 告别“一键生成模板套路”：商业级 PPT Agent 的完整架构与设计实战
 date: 2026-10-19 10:00:00
-index_img: https://pic1.imgdb.cn/i/033wUcdVWOKk70cYQ5EXw8.png
+index_img: https://r2.miku2024.top/r2/2026/11/8126724f0c1faad52e421563d3d89e6c.webp
 categories:
   - AI开发
   - 产品设计

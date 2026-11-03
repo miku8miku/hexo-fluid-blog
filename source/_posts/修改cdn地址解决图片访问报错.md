@@ -1,7 +1,7 @@
 ---
 title: 修改CDN地址解决图片访问报错
 date: 2025-11-27 15:00:00
-index_img: https://pic1.imgdb.cn/item/691543053203f7be00fb2f35.png
+index_img: https://r2.miku2024.top/r2/2026/11/b0a3a760c798e27470903721ad295665.webp
 categories: 技术教程
 tags:
   - CDN

@@ -1,7 +1,7 @@
 ---
 title: 使用 Cloudflare Zero Trust 为个人网站添加访问验证
 date: 2025-9-5 11:00:00
-index_img: https://pic1.imgdb.cn/item/68e87805c5157e1a8860c7cf.png
+index_img: https://r2.miku2024.top/r2/2026/11/31d1027b0fde14a3510ca604747ae596.webp
 category: 技术教程
 tags:
   - Cloudflare

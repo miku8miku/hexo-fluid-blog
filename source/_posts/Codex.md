@@ -1,7 +1,7 @@
 ---
 title: Codex指南
 date: 2026-10-16 16:05:11
-index_img: https://pic1.imgdb.cn/i/033wUV8rWAhD5AWr1m3TeR.png
+index_img: https://r2.miku2024.top/r2/2026/11/cc973606f84371299c001354e90f8663.webp
 categories:
   - AI开发
   - 效率工具

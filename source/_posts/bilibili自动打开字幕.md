@@ -1,7 +1,7 @@
 ---
 title: Bilibili自动打开字幕油猴脚本
 date: 2025-10-14 10:00:00
-index_img: https://pic1.imgdb.cn/item/68e877ccc5157e1a8860c651.png
+index_img: https://r2.miku2024.top/r2/2026/11/759f8a2271fac3abc773832230a393ef.webp
 category: 技术教程
 tags:
   - Bilibili

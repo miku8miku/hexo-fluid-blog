@@ -1,7 +1,7 @@
 ---
 title: WiFi通信中的CPE与QCI概念及IMEI选择指南
 date: 2025-10-30 16:00:00
-index_img: https://pic1.imgdb.cn/item/68f657923203f7be00835bdd.png
+index_img: https://r2.miku2024.top/r2/2026/11/ae210794bcefb15bb727c3849ebad442.webp
 categories: 通信技术
 tags:
   - WiFi通信

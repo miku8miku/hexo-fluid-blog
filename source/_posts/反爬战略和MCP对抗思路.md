@@ -1,7 +1,7 @@
 ---
 title: 反爬战略和 MCP 对抗思路
 date: 2026-04-22 23:45:00
-index_img: https://pic1.imgdb.cn/item/69d1d21e53a4002eed70083d.png
+index_img: https://r2.miku2024.top/r2/2026/11/f40680d67027f0aaf63a2021d68f294d.webp
 category: 逆向工程
 tags:
   - 反爬虫

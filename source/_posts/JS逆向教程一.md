@@ -1,7 +1,7 @@
 ---
 title: JS逆向教程一：基础入门与实战技巧
 date: 2025-11-03 16:00:00
-index_img: https://pic1.imgdb.cn/item/68f658973203f7be00835cbe.png
+index_img: https://r2.miku2024.top/r2/2026/11/37d2d41f2a98cffb481e5887b46df76d.webp
 categories: 技术教程
 tags:
   - JS逆向

@@ -10,7 +10,7 @@ tags:
 categories:
   - 开发工具
   - 问题解决
-index_img: https://pic1.imgdb.cn/item/69cd1f830d45b9ceac3ed8b7.png
+index_img: https://r2.miku2024.top/r2/2026/11/5dea05ef38738a58c076055f741dd756.webp
 copyright: true
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Drissionpage自动化过cloudflare5s盾
 date: 2025-11-12 15:00:00
-index_img: https://pic1.imgdb.cn/item/6913fdd83203f7be00f6f118.png
+index_img: https://r2.miku2024.top/r2/2026/11/a077f4ecb5ffac148dd2f277350f2eb4.webp
 categories: 技术教程
 tags:
   - Drissionpage

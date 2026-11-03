@@ -1,7 +1,7 @@
 ---
 title: WebSocket 协议完全指南：从入门到实战
 date: 2023-07-24 10:00:00
-index_img: https://pic1.imgdb.cn/item/68cadc53c5157e1a88132d66.png
+index_img: https://r2.miku2024.top/r2/2026/11/dbe87ff45294c1520ee4a15d9989ac1e.webp
 category: 技术教程
 tags:
   - WebSocket

@@ -1,7 +1,7 @@
 ---
 title: AI 辅助分析高德地图逆向实战
 date: 2026-04-22 23:39:00
-index_img: https://pic1.imgdb.cn/item/69cd1fb00d45b9ceac3ed8ec.png
+index_img: https://r2.miku2024.top/r2/2026/11/71ff260c66ffb32fdf2e8584f983a8cd.webp
 category: 逆向工程
 tags:
   - 高德地图

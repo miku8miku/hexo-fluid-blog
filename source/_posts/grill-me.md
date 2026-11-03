@@ -11,7 +11,7 @@ tags:
 categories:
   - AI开发
   - 效率工具
-index_img: https://pic1.imgdb.cn/i/033wUcdnGXiuv83qs4fY2n.png
+index_img: https://r2.miku2024.top/r2/2026/11/a2cd51d4be0e9e90e090300648fd7289.webp
 mermaid: true
 description: 在真实项目中使用三个月的 grill-me skill 实践总结：让 AI 编码代理在动手之前先沿决策树连环拷问你，把未说出口的假设和风险提前暴露，大幅减少返工。
 copyright: true

@@ -1,7 +1,7 @@
 ---
 title: 基于AI的某防水墙滑块验证码自动化全链路实现
 date: 2026-04-22 23:33:00
-index_img: https://pic1.imgdb.cn/item/69cd1f550d45b9ceac3ed8a1.png
+index_img: https://r2.miku2024.top/r2/2026/11/f2895900e621df66316484366b4038e7.webp
 category: 逆向工程
 tags:
   - 验证码

@@ -1,7 +1,7 @@
 ---
 title: Vibe Coding 实战经验：打造高效反馈闭环
 date: 2026-04-10 16:00:00
-index_img: https://pic1.imgdb.cn/item/69ce83df6ccec478dfad2b46.png
+index_img: https://r2.miku2024.top/r2/2026/11/2110d83e38301ece357b4198916ecd09.webp
 category: AI应用
 tags:
   - Vibe Coding

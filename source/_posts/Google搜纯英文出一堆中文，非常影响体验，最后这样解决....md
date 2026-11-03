@@ -1,7 +1,7 @@
 ---
 title: 解决Google搜索英文结果出现中文内容的问题
 date: 2026-01-06 11:29:00
-index_img: https://pic1.imgdb.cn/item/696509c751d5e4e5d572b38d.png
+index_img: https://r2.miku2024.top/r2/2026/11/c05c2552d03379d396970b6675707fbd.webp
 tags: [Google搜索, 搜索优化, 翻墙技巧]
 ---
 

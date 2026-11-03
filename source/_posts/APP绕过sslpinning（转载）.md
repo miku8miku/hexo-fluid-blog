@@ -1,7 +1,7 @@
 ---
 title: APP绕过sslpinning（转载）
 date: 2025-12-12 14:43:00
-index_img: https://pic1.imgdb.cn/item/69645f4575db907620f55f40.png
+index_img: https://r2.miku2024.top/r2/2026/11/4b81636e9338fefded0fd93417651995.webp
 tags: [网络安全, 移动安全, SSL, HTTPS, 抓包]
 ---
 

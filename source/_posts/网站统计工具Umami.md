@@ -1,7 +1,7 @@
 ---
 title: Umami 网站统计工具完整部署指南
 date: 2024-09-19 14:00:00
-index_img: https://pic1.imgdb.cn/item/68caacdec5157e1a8812c6fd.png
+index_img: https://r2.miku2024.top/r2/2026/11/5423c7a7221f59aa068c802e8b8280b3.webp
 category: 实用工具
 tags:
   - Umami

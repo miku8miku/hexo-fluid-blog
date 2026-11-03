@@ -1,7 +1,7 @@
 ---
 title: 间接提示词注入和供应链投毒，正在威胁你的 AI Agent
 date: 2026-04-20 15:00:00
-index_img: https://pic1.imgdb.cn/item/69cd1fc50d45b9ceac3ed8f5.png
+index_img: https://r2.miku2024.top/r2/2026/11/14c13cab515d907a25095ccf85ada7f6.webp
 category: AI应用
 tags:
   - AI安全

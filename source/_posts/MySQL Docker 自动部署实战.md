@@ -1,7 +1,7 @@
 ---
 title: MySQL Docker 自动部署实战指南
 date: 2023-07-07 10:00:00
-index_img: https://pic1.imgdb.cn/item/68caad55c5157e1a8812c7d3.png
+index_img: https://r2.miku2024.top/r2/2026/11/aeef4cba574fe3ac6813a9f806c6f209.webp
 category: 技术教程
 tags:
   - Docker

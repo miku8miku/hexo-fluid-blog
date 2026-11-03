@@ -1,7 +1,7 @@
 ---
 title: 为什么挂了代理还是被识别？彻底排查并解决 DNS 与 WebRTC 泄漏（附 DoH 与原理解析）
 date: 2026-10-14 16:47:20
-index_img: https://pic1.imgdb.cn/i/033wUVuYfvWTQVOSCerYAF.png
+index_img: https://r2.miku2024.top/r2/2026/11/d118e70a8868fc565d060e8a14cbca99.webp
 category: 技术教程
 tags:
   - 网络安全

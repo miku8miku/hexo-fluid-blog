@@ -11,7 +11,7 @@ tags:
 categories:
   - AI开发
   - 效率工具
-index_img: https://pic1.imgdb.cn/i/033wUaMhUiXJ2dOnnEOv8O.png
+index_img: https://r2.miku2024.top/r2/2026/11/e7d13045955083d363147972e0179dcd.webp
 description: 用 codex + 提示词 + image2 直接生成成品级学术答辩 PPT 的完整工作流：从做底板、写五区块提示词模板到批量生图组装，无需手动修改。
 copyright: true
 ---

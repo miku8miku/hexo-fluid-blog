@@ -1,7 +1,7 @@
 ---
 title: AI写作为何一眼被识破？实战破解指南
 date: 2026-04-10 15:00:00
-index_img: https://pic1.imgdb.cn/item/69ce83696ccec478dfad2aa1.png
+index_img: https://r2.miku2024.top/r2/2026/11/0ac083964e2254d55471153b25d4ec28.webp
 category: AI应用
 tags:
   - AI写作
