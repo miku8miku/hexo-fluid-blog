@@ -46,7 +46,11 @@ var ogConfig = Object.assign({ image: ogImage && url_for(ogImage) }, theme.open_
   <%- partial('_partials/plugins/analytics.ejs') %>
 
   <%- inject_point('head') %>
+  <!-- 原 Live2D 看板娘 (已临时注释保留，如需切回随时解除注释)
   <script src="/live2d-widget/autoload.js"></script>
+  -->
+  <!-- dsh-pet 鲸鱼娘看板娘 (CDN 直链测试版) -->
+  <script defer src="/js/dsh-whale-pet.js"></script>
 
   <!-- # google广告
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8306217771513802"
